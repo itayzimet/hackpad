@@ -457,7 +457,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B"
+		(symbol "LED:SK6812MINI"
 			(pin_names
 				(offset 0.254)
 			)
@@ -473,7 +473,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812B"
+			(property "Value" "SK6812MINI"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -482,7 +482,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -492,7 +492,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 				(at 2.54 -9.525 0)
 				(effects
 					(font
@@ -511,7 +511,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel addressable"
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -520,7 +520,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -529,7 +529,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812B_0_0"
+			(symbol "SK6812MINI_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -539,7 +539,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_0_1"
+			(symbol "SK6812MINI_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -636,7 +636,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_1_1"
+			(symbol "SK6812MINI_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -647,7 +647,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -665,7 +665,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -683,7 +683,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -701,7 +701,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1954,16 +1954,16 @@
 		)
 	)
 	(junction
-		(at 36.83 152.4)
+		(at 144.78 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05c951c4-28ee-4b3d-a4b5-8fdb5a55b03e")
+		(uuid "01a2261a-1539-487b-8401-4abc48045cc3")
 	)
 	(junction
-		(at 39.37 125.73)
+		(at 91.44 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "069bdeec-416b-4751-bda9-e8819496da7b")
+		(uuid "058a53a8-d8aa-48a1-8acc-7d9bc676c45f")
 	)
 	(junction
 		(at 62.23 29.21)
@@ -1972,58 +1972,22 @@
 		(uuid "0a98b3fc-0baa-4544-801d-3ccb98329e5a")
 	)
 	(junction
-		(at 105.41 137.16)
+		(at 57.15 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1226874a-079b-46c9-bca7-00e78d84c978")
+		(uuid "163af163-c89e-4711-a8b2-71f34319455b")
 	)
 	(junction
-		(at 165.1 110.49)
+		(at 110.49 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "12dbba5e-7ca9-4048-b807-5343d99aa895")
+		(uuid "19abad58-d7a4-4d71-875a-34a1366a4788")
 	)
 	(junction
-		(at 78.74 152.4)
+		(at 110.49 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "17add6b4-096f-4d54-908c-93c092b468b1")
-	)
-	(junction
-		(at 212.09 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19291651-2a2f-4235-a478-2c6f260e8850")
-	)
-	(junction
-		(at 243.84 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1be3ec16-24b1-4705-a776-76e033e5c4e8")
-	)
-	(junction
-		(at 158.75 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ecbc0f3-135a-416e-87ec-48077bc62f11")
-	)
-	(junction
-		(at 52.07 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "219e14bd-3d31-4630-a3df-879a555b59eb")
-	)
-	(junction
-		(at 58.42 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23a5c5e8-2ca7-4df5-a8db-2d626f075358")
-	)
-	(junction
-		(at 111.76 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2744a636-ed7e-49bc-a895-ab558c87e356")
+		(uuid "274311b1-df0e-4fc3-a190-60be03aac885")
 	)
 	(junction
 		(at 62.23 44.45)
@@ -2032,22 +1996,10 @@
 		(uuid "2f88fda2-62d6-4409-8af8-85a803217b28")
 	)
 	(junction
-		(at 138.43 125.73)
+		(at 110.49 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39a1bfc4-1330-436f-b5c4-5c1d4d6b7696")
-	)
-	(junction
-		(at 58.42 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4375040e-fe64-4b04-b1dc-450af883870f")
-	)
-	(junction
-		(at 212.09 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4560567e-34ec-449a-a4f0-51c11a4e0666")
+		(uuid "470e47c5-5d47-4f8c-837b-5e7405ec9e50")
 	)
 	(junction
 		(at 72.39 55.88)
@@ -2056,16 +2008,22 @@
 		(uuid "4e422497-c980-4924-a648-999163ad8970")
 	)
 	(junction
-		(at 85.09 125.73)
+		(at 74.93 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50696390-79ad-4951-96c4-2a4c03d10df6")
+		(uuid "52b9fbe4-45bc-4128-9cae-9cc9efded7f2")
 	)
 	(junction
-		(at 138.43 110.49)
+		(at 40.64 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5092becb-d8b6-4c04-9d6e-4169dfc33576")
+		(uuid "53f83eec-9e03-4c7c-8953-f7516d98af3b")
+	)
+	(junction
+		(at 127 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b14f069-3bef-4a41-91aa-02f4d2809b27")
 	)
 	(junction
 		(at 62.23 60.96)
@@ -2080,34 +2038,22 @@
 		(uuid "650c6a17-a190-4499-9afd-e7c62d00e272")
 	)
 	(junction
-		(at 52.07 137.16)
+		(at 128.27 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "670f018f-6032-4c3f-bcb0-accfdfdbfaf8")
+		(uuid "69d12bfd-2f6a-4cc3-b902-42be335f096c")
 	)
 	(junction
-		(at 238.76 152.4)
+		(at 40.64 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "726e59c3-2472-4de6-8563-09fb57a07680")
+		(uuid "72423904-48ab-4d26-a6b8-2c5c34c63c32")
 	)
 	(junction
-		(at 85.09 110.49)
+		(at 91.44 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "733bf407-a6ac-4e17-b461-9e102fe29bb7")
-	)
-	(junction
-		(at 257.81 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74b6e4a1-8db3-4142-931b-179a7c28256d")
-	)
-	(junction
-		(at 243.84 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7530eac6-0ac1-4afc-b2ad-942121a9612d")
+		(uuid "758d4803-8b51-4238-a6e1-1ad419ba83bc")
 	)
 	(junction
 		(at 48.26 44.45)
@@ -2116,28 +2062,16 @@
 		(uuid "7741e819-839a-4116-9784-d7c873e5ad24")
 	)
 	(junction
-		(at 132.08 152.4)
+		(at 74.93 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "796ff414-a878-482d-bf1b-111dea54b9b2")
+		(uuid "79868e3e-3c87-40e0-ad9e-ed31830649b7")
 	)
 	(junction
-		(at 78.74 137.16)
+		(at 143.51 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8fac3f82-fc7e-4225-9f02-9468024c2ebc")
-	)
-	(junction
-		(at 111.76 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91b7dc58-8f3b-41a3-a2f6-1adebbe97245")
-	)
-	(junction
-		(at 238.76 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "970c1738-05e6-4821-9c1a-432b1e80a906")
+		(uuid "99dd642c-ed43-46a2-82b5-fef9bb477e00")
 	)
 	(junction
 		(at 72.39 39.37)
@@ -2146,16 +2080,46 @@
 		(uuid "9d512a62-fc5c-404e-a41e-6435e57209f5")
 	)
 	(junction
+		(at 91.44 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a08336b8-705e-4bdf-8698-7a237a3e84cc")
+	)
+	(junction
+		(at 144.78 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2185ae4-7373-418c-9db9-4120ffaf892d")
+	)
+	(junction
+		(at 58.42 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24fabaf-6d0d-4ed3-ba9c-85870efaf9a1")
+	)
+	(junction
 		(at 44.45 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac5ac1e5-3d0e-4a69-8e7f-bc0683c5325e")
 	)
 	(junction
-		(at 191.77 110.49)
+		(at 110.49 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b0eb640a-aca0-4759-ac73-25604fd55e45")
+		(uuid "ae8883bb-7dee-434a-9d6e-9529fd79c086")
+	)
+	(junction
+		(at 58.42 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5e7b444-239c-412c-ba93-367054b1e054")
+	)
+	(junction
+		(at 91.44 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b952e8b2-2977-4c46-9e5e-d8406804663d")
 	)
 	(junction
 		(at 44.45 39.37)
@@ -2170,64 +2134,52 @@
 		(uuid "c00c2189-dadf-4db1-a6f5-ee0c29cbbea1")
 	)
 	(junction
-		(at 218.44 125.73)
+		(at 128.27 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c3381b75-d9d5-4b67-8d7f-87b9f8176803")
+		(uuid "c2c67370-dabf-4afd-8d2c-e8c445d7abca")
 	)
 	(junction
-		(at 105.41 152.4)
+		(at 57.15 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dcaffb7c-5012-4f8f-9eba-862aa560e0bf")
+		(uuid "c82be396-c920-48ea-ba1d-37f544d33d04")
 	)
 	(junction
-		(at 158.75 137.16)
+		(at 40.64 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e388789f-006b-4ddf-8dcc-3f751a0d6d15")
+		(uuid "d0645c2d-b9fa-4051-94aa-245a304daac4")
 	)
 	(junction
-		(at 191.77 125.73)
+		(at 40.64 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e3ffe89d-2833-4254-9b58-a87ec0b912fa")
+		(uuid "de4ed53b-c17e-46de-9037-2146b6a1388c")
 	)
 	(junction
-		(at 218.44 110.49)
+		(at 143.51 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5733d36-3c97-45bb-88a9-7560b213eb4f")
+		(uuid "e87c5f44-b013-495b-bdc2-c9e3dd3a49b4")
 	)
 	(junction
-		(at 165.1 125.73)
+		(at 73.66 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e596cd9f-cfb9-49a4-8d60-004590fa57c8")
+		(uuid "e99c8c1c-69fb-4f53-9f34-0b76aa68cd09")
 	)
 	(junction
-		(at 41.91 110.49)
+		(at 127 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5c33115-8eb7-4c2c-be9b-f01b8114d8f6")
+		(uuid "eed1e4ce-7eee-4853-b315-95a4e23e9c3c")
 	)
 	(junction
-		(at 185.42 152.4)
+		(at 73.66 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e68ec238-7f1c-4a0f-a65a-7e541fc53c6c")
-	)
-	(junction
-		(at 185.42 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec6bb9bd-7798-4dc8-9c02-354068d3d1bc")
-	)
-	(junction
-		(at 132.08 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee634eb6-b00e-475b-97db-17d4099499d4")
+		(uuid "ef51bd26-8ed4-46f5-abbc-209e26a1a34c")
 	)
 	(junction
 		(at 48.26 29.21)
@@ -2243,53 +2195,43 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 110.49) (xy 41.91 110.49)
+			(xy 91.44 111.76) (xy 74.93 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05ed3e77-2798-4dfa-afc2-570bb2f81665")
+		(uuid "006c6eb1-8eb8-43e8-a0ac-5c75e319992e")
 	)
 	(wire
 		(pts
-			(xy 52.07 152.4) (xy 36.83 152.4)
+			(xy 40.64 152.4) (xy 57.15 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0725f552-4357-4863-908c-a413d31b8222")
+		(uuid "07c75db5-2065-4ddd-8401-a736f6881c31")
 	)
 	(wire
 		(pts
-			(xy 218.44 125.73) (xy 243.84 125.73)
+			(xy 128.27 127) (xy 110.49 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c80922b-fab1-4a70-8e75-ab6b637ac1cb")
+		(uuid "0d1f15d9-64f9-48e5-8827-79cc78394497")
 	)
 	(wire
 		(pts
-			(xy 41.91 110.49) (xy 58.42 110.49)
+			(xy 118.11 119.38) (xy 120.65 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f1da392-613f-4c29-8433-d7800258a4e5")
-	)
-	(wire
-		(pts
-			(xy 257.81 137.16) (xy 275.59 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc5f169-a311-4552-9453-587a6db9f309")
+		(uuid "0ec8db3f-bdd9-4e97-a01f-5b2a0dbfe963")
 	)
 	(wire
 		(pts
@@ -2303,23 +2245,23 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 118.11) (xy 210.82 118.11)
+			(xy 110.49 167.64) (xy 91.44 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11d6a799-396b-4324-8fc1-4042bac41155")
+		(uuid "112b7014-623b-4fe5-9f40-6b841a794a73")
 	)
 	(wire
 		(pts
-			(xy 185.42 137.16) (xy 212.09 137.16)
+			(xy 58.42 111.76) (xy 74.93 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15338c64-1644-4175-8e77-406c95ed3b24")
+		(uuid "1826767e-2dff-492b-a22e-41a793ae9a32")
 	)
 	(wire
 		(pts
@@ -2333,36 +2275,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 137.16) (xy 105.41 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197cc114-c2b4-4a01-885a-20454953d325")
-	)
-	(wire
-		(pts
-			(xy 218.44 110.49) (xy 243.84 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1baa2552-8f7a-4643-b78d-78f673e765e2")
-	)
-	(wire
-		(pts
-			(xy 97.79 144.78) (xy 86.36 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e996990-d1ef-42ea-a17d-b60930fca23a")
-	)
-	(wire
-		(pts
 			(xy 58.42 55.88) (xy 58.42 83.82)
 		)
 		(stroke
@@ -2373,43 +2285,53 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 118.11) (xy 257.81 118.11)
+			(xy 58.42 111.76) (xy 40.64 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2115372c-b1cc-431c-a4d4-7afd472c9866")
+		(uuid "24281cfe-fd13-42ac-9282-517d35c2a0ab")
 	)
 	(wire
 		(pts
-			(xy 177.8 144.78) (xy 166.37 144.78)
+			(xy 168.91 119.38) (xy 168.91 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "248b0c02-830b-469c-84da-10c2693af993")
+		(uuid "261de7cb-9fe8-4984-a408-11cf80b04046")
 	)
 	(wire
 		(pts
-			(xy 52.07 137.16) (xy 78.74 137.16)
+			(xy 40.64 111.76) (xy 30.48 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "264cad99-1992-4aa4-9625-f010e4917534")
+		(uuid "27e7209a-8676-4547-a83a-370569ff7c01")
 	)
 	(wire
 		(pts
-			(xy 212.09 152.4) (xy 185.42 152.4)
+			(xy 30.48 119.38) (xy 33.02 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fcf3afa-f415-4340-b84a-bd0303da3016")
+		(uuid "2bbe76f8-0b90-4f53-93a3-52e10f8fe961")
+	)
+	(wire
+		(pts
+			(xy 48.26 119.38) (xy 50.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2ef260-1cbb-437e-9792-3b0c8f622541")
 	)
 	(wire
 		(pts
@@ -2443,36 +2365,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 137.16) (xy 158.75 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35a22f35-5945-4402-a51b-1a95b2ee7f09")
-	)
-	(wire
-		(pts
-			(xy 165.1 125.73) (xy 191.77 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39c02824-4acf-493e-bf09-89220c587782")
-	)
-	(wire
-		(pts
-			(xy 71.12 144.78) (xy 59.69 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a2ddbec-9833-4941-ae14-528042124dcb")
-	)
-	(wire
-		(pts
 			(xy 44.45 39.37) (xy 44.45 55.88)
 		)
 		(stroke
@@ -2483,73 +2375,113 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 137.16) (xy 30.48 137.16)
+			(xy 91.44 127) (xy 110.49 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dd87144-b5e3-4f8b-832f-0701b622b287")
+		(uuid "3ca50b38-61a0-4376-aa18-9a4c99c83198")
 	)
 	(wire
 		(pts
-			(xy 39.37 125.73) (xy 58.42 125.73)
+			(xy 161.29 111.76) (xy 144.78 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41d906d2-82c8-48b9-aa7e-754083276499")
+		(uuid "3f1cf8ce-ab1f-4d7e-b642-aeaa810365d3")
 	)
 	(wire
 		(pts
-			(xy 36.83 152.4) (xy 30.48 152.4)
+			(xy 135.89 119.38) (xy 137.16 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4587d26b-8464-4908-b6ea-8e7d435a3163")
+		(uuid "414ac64b-1449-465b-a47f-ac8bf300a775")
 	)
 	(wire
 		(pts
-			(xy 132.08 152.4) (xy 105.41 152.4)
+			(xy 73.66 167.64) (xy 91.44 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b21811b-a666-4d99-ae95-64d9adb7f518")
+		(uuid "428480bf-846e-469e-94f4-c97806dfa360")
 	)
 	(wire
 		(pts
-			(xy 238.76 152.4) (xy 212.09 152.4)
+			(xy 40.64 127) (xy 30.48 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b353b14-8f30-4bd3-9a83-ebf4a4e8bd24")
+		(uuid "45996361-7396-4791-9d4e-d6c5bb2b2aad")
 	)
 	(wire
 		(pts
-			(xy 212.09 137.16) (xy 238.76 137.16)
+			(xy 73.66 152.4) (xy 57.15 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5323e780-7d88-4c38-840b-4bc5147ab459")
+		(uuid "4b546d91-0c99-4cd0-a07b-242e031a29e8")
 	)
 	(wire
 		(pts
-			(xy 44.45 144.78) (xy 38.1 144.78)
+			(xy 110.49 152.4) (xy 91.44 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5796aa8e-f3e2-46a6-a535-ef16f3fd4e6c")
+		(uuid "4de0284e-d437-4ce0-8418-86a02df10be3")
+	)
+	(wire
+		(pts
+			(xy 83.82 160.02) (xy 81.28 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5192cf57-d08f-416b-ba45-bf42e591d4d6")
+	)
+	(wire
+		(pts
+			(xy 27.94 152.4) (xy 40.64 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5292529e-4f9c-485d-9127-921648b415fb")
+	)
+	(wire
+		(pts
+			(xy 66.04 160.02) (xy 64.77 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55685768-6566-495d-8e86-fa554821c599")
+	)
+	(wire
+		(pts
+			(xy 128.27 111.76) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590d967f-8352-4677-9faf-30b12b134964")
 	)
 	(wire
 		(pts
@@ -2563,43 +2495,53 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 144.78) (xy 139.7 144.78)
+			(xy 91.44 111.76) (xy 110.49 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60c8388a-a4f3-4982-b9ca-b66cc5511e43")
+		(uuid "61252fc1-3ba2-4148-893e-1e9f1bfc661f")
 	)
 	(wire
 		(pts
-			(xy 58.42 125.73) (xy 85.09 125.73)
+			(xy 102.87 160.02) (xy 99.06 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64175aaa-f48a-4e52-8e46-63a2c143350d")
+		(uuid "63452b64-8a20-4f06-9f8b-56af2f83f3a4")
 	)
 	(wire
 		(pts
-			(xy 204.47 144.78) (xy 193.04 144.78)
+			(xy 40.64 167.64) (xy 57.15 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6983368a-65b3-4fe5-8144-02f771aa47e8")
+		(uuid "69225b57-e056-4131-9db8-87e998891a1b")
 	)
 	(wire
 		(pts
-			(xy 22.86 129.54) (xy 22.86 144.78)
+			(xy 143.51 152.4) (xy 161.29 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ab779f4-fc34-4881-b6b8-e9aea3cdaae5")
+		(uuid "6da06a1a-d285-4c83-aaa0-a1e92817563a")
+	)
+	(wire
+		(pts
+			(xy 161.29 127) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de19132-3870-4379-9c2e-02e8832fd08f")
 	)
 	(wire
 		(pts
@@ -2613,13 +2555,33 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 110.49) (xy 191.77 110.49)
+			(xy 27.94 167.64) (xy 27.94 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71d454f9-2ec9-4873-ba9a-ef92277dbe0a")
+		(uuid "712e229b-caaa-43a7-8c97-8c3c6ff2aa3c")
+	)
+	(wire
+		(pts
+			(xy 30.48 106.68) (xy 30.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a852b2-c797-4f69-afeb-59ea105d3b67")
+	)
+	(wire
+		(pts
+			(xy 58.42 127) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ace9c73-681a-4c09-9360-dd2c745e26b8")
 	)
 	(wire
 		(pts
@@ -2633,53 +2595,23 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 118.11) (xy 236.22 118.11)
+			(xy 58.42 127) (xy 40.64 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d9f8b95-cec7-45c1-906f-1d9ffe5c56bb")
+		(uuid "84640e9b-f973-4a8a-a5b5-f1dad56fe9c7")
 	)
 	(wire
 		(pts
-			(xy 146.05 118.11) (xy 157.48 118.11)
+			(xy 143.51 152.4) (xy 127 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81151080-6e85-4225-b3a3-0ba95b9ec7dd")
-	)
-	(wire
-		(pts
-			(xy 138.43 125.73) (xy 165.1 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "828fb768-08df-4dca-bee9-9c1835f4f437")
-	)
-	(wire
-		(pts
-			(xy 191.77 125.73) (xy 218.44 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87fb830c-3733-49f2-b187-ca6091a138ae")
-	)
-	(wire
-		(pts
-			(xy 39.37 125.73) (xy 17.78 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a4d62f8-6e9a-4b2e-b1c9-e137bc890163")
+		(uuid "87d39c2f-36f0-4bc3-ab19-e3b0a03361df")
 	)
 	(wire
 		(pts
@@ -2693,13 +2625,13 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 152.4) (xy 238.76 152.4)
+			(xy 99.06 119.38) (xy 102.87 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b86d952-5545-44fe-91d9-cb2f24f27d43")
+		(uuid "8d1d157c-1c25-4420-ac04-4fa0f5fa2283")
 	)
 	(wire
 		(pts
@@ -2713,63 +2645,63 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 152.4) (xy 52.07 152.4)
+			(xy 27.94 167.64) (xy 40.64 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fa9ea5a-c3ce-4808-b02f-9292e2581754")
+		(uuid "8e20314d-271e-42b4-9d35-7243e0fdce2a")
 	)
 	(wire
 		(pts
-			(xy 158.75 137.16) (xy 185.42 137.16)
+			(xy 128.27 127) (xy 144.78 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "929bb9f8-fdcb-4024-b8f9-e65b39c1307e")
+		(uuid "8e3d0291-5f92-4368-ae2b-bfc0eec6273f")
 	)
 	(wire
 		(pts
-			(xy 66.04 118.11) (xy 77.47 118.11)
+			(xy 110.49 152.4) (xy 127 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9395f418-6598-4639-8599-357f9204c98b")
+		(uuid "977a9776-7af3-45d5-9da2-91fe8250053e")
 	)
 	(wire
 		(pts
-			(xy 243.84 110.49) (xy 265.43 110.49)
+			(xy 73.66 167.64) (xy 57.15 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96e2a361-99c4-41c6-8825-3e6e1bf3b89e")
+		(uuid "9b10cdf8-9b6e-4908-81ca-d8d9df4635c9")
 	)
 	(wire
 		(pts
-			(xy 238.76 137.16) (xy 257.81 137.16)
+			(xy 152.4 119.38) (xy 153.67 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a24e200-864d-4cd0-8c20-80b9c3adc9c6")
+		(uuid "9ff7aa37-ead2-4515-8f28-2e488ff3a877")
 	)
 	(wire
 		(pts
-			(xy 46.99 118.11) (xy 50.8 118.11)
+			(xy 143.51 167.64) (xy 127 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0c7b203-c5a3-41f8-be9c-b85c85e44dfa")
+		(uuid "a23f9c88-866c-4bb3-bae4-9b329e28b7e8")
 	)
 	(wire
 		(pts
@@ -2783,23 +2715,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 110.49) (xy 138.43 110.49)
+			(xy 49.53 160.02) (xy 48.26 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a658f2fb-d704-460a-8fae-8651f04aaa7b")
+		(uuid "ac56696d-439a-40c7-9821-ef8eadd0df01")
 	)
 	(wire
 		(pts
-			(xy 250.19 144.78) (xy 246.38 144.78)
+			(xy 66.04 119.38) (xy 67.31 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adc61efa-e989-44e9-8baa-5d1488b9ac9d")
+		(uuid "b4dfb66a-a6c3-4aa9-b761-128f9109e7d6")
 	)
 	(wire
 		(pts
@@ -2813,13 +2745,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 152.4) (xy 78.74 152.4)
+			(xy 110.49 167.64) (xy 127 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc43d84d-e6f2-41bb-8b49-14e5e911b1d0")
+		(uuid "b943fd2c-3adb-4b98-940a-5d8dd8f162e5")
 	)
 	(wire
 		(pts
@@ -2833,53 +2765,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 118.11) (xy 104.14 118.11)
+			(xy 30.48 127) (xy 30.48 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bca45264-5236-4eef-9bdf-eec8912baaa2")
+		(uuid "bfb1a43c-8076-49db-b442-0f7b2befd563")
 	)
 	(wire
 		(pts
-			(xy 243.84 125.73) (xy 265.43 125.73)
+			(xy 119.38 160.02) (xy 118.11 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf96e556-39a5-4254-bfe7-c289a51a78c6")
-	)
-	(wire
-		(pts
-			(xy 158.75 152.4) (xy 132.08 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0a5ca87-a201-439c-a349-7e4a18173aa3")
-	)
-	(wire
-		(pts
-			(xy 85.09 125.73) (xy 111.76 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12fd5e6-a909-436a-a5b2-f6f1dcad9954")
-	)
-	(wire
-		(pts
-			(xy 273.05 129.54) (xy 22.86 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2eeaea1-4a71-443d-91ed-718fe3fd1639")
+		(uuid "c1aecbdd-8924-4fa1-948c-1a0ff8fff1b2")
 	)
 	(wire
 		(pts
@@ -2893,43 +2795,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 152.4) (xy 158.75 152.4)
+			(xy 153.67 160.02) (xy 151.13 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c46e8d86-d1f5-4e1f-9d4e-1ca19ecb8740")
-	)
-	(wire
-		(pts
-			(xy 17.78 125.73) (xy 17.78 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c826e59e-61aa-4164-9d3c-b145e8e3ce3f")
-	)
-	(wire
-		(pts
-			(xy 172.72 118.11) (xy 184.15 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca2d7fe1-446f-446a-949f-de8b79565d1f")
-	)
-	(wire
-		(pts
-			(xy 124.46 144.78) (xy 113.03 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbb018d5-f7eb-47df-9fb8-69fd85fd3da3")
+		(uuid "c3edfc4e-2f54-43ef-b943-b295f1031436")
 	)
 	(wire
 		(pts
@@ -2943,13 +2815,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 110.49) (xy 111.76 110.49)
+			(xy 135.89 160.02) (xy 134.62 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d194e6aa-82e0-4290-a445-77c994e78e4d")
+		(uuid "d4d8881c-0ef2-4367-beb3-4ad7e88c0ca5")
 	)
 	(wire
 		(pts
@@ -2963,13 +2835,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 110.49) (xy 218.44 110.49)
+			(xy 128.27 111.76) (xy 110.49 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dac1ce87-ba78-4fcd-92a3-7b2ed0425f6f")
+		(uuid "dde715d2-ebd4-4843-9398-c5c0a62ee649")
 	)
 	(wire
 		(pts
@@ -2983,23 +2855,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 118.11) (xy 273.05 129.54)
+			(xy 73.66 152.4) (xy 91.44 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e111ea5e-8e2e-4dd7-8f93-97969a8cb560")
-	)
-	(wire
-		(pts
-			(xy 105.41 137.16) (xy 132.08 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1291d41-0836-4036-9139-425c4441c858")
+		(uuid "e20ede8d-13cc-4e69-99f7-37631e022b72")
 	)
 	(wire
 		(pts
@@ -3013,33 +2875,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 125.73) (xy 138.43 125.73)
+			(xy 91.44 127) (xy 74.93 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e50656f7-6c9e-47be-aa73-f63e908b219b")
+		(uuid "e4b407da-897b-404b-bee7-51132c38aabe")
 	)
 	(wire
 		(pts
-			(xy 138.43 110.49) (xy 165.1 110.49)
+			(xy 143.51 167.64) (xy 161.29 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e78adaab-44a9-48c0-bb00-c313381c742e")
-	)
-	(wire
-		(pts
-			(xy 119.38 118.11) (xy 130.81 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8474aae-15f3-4962-8dec-26efbf3f1482")
+		(uuid "edb2542b-ef6c-48fa-82af-062a91c78d99")
 	)
 	(wire
 		(pts
@@ -3053,6 +2905,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 146.05) (xy 27.94 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b9f4ae-41e3-4b5e-afeb-a6bfd5c9332a")
+	)
+	(wire
+		(pts
 			(xy 48.26 29.21) (xy 62.23 29.21)
 		)
 		(stroke
@@ -3063,23 +2925,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 144.78) (xy 219.71 144.78)
+			(xy 82.55 119.38) (xy 83.82 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbb3d26b-6959-41ad-8431-9e690e042d08")
-	)
-	(wire
-		(pts
-			(xy 58.42 110.49) (xy 85.09 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3a85bf-6919-4820-8c51-e1c9d611585d")
+		(uuid "fc5617f7-c867-4576-bf27-a7415a590a83")
 	)
 	(wire
 		(pts
@@ -3181,7 +3033,7 @@
 	)
 	(global_label "LED_CNTRL"
 		(shape input)
-		(at 31.75 118.11 180)
+		(at 30.48 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3191,7 +3043,7 @@
 		)
 		(uuid "303af706-3b17-43ea-b8f5-e8c787656bd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.4839 118.11 0)
+			(at 17.2139 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +3077,7 @@
 	)
 	(global_label "COL1"
 		(shape input)
-		(at 172.72 87.63 0)
+		(at 172.72 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3235,7 +3087,7 @@
 		)
 		(uuid "323d41ba-053b-42a4-8af5-7e6eb66031ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.5433 87.63 0)
+			(at 180.5433 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3247,7 +3099,7 @@
 	)
 	(global_label "COL2"
 		(shape input)
-		(at 172.72 91.44 0)
+		(at 172.72 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3257,7 +3109,7 @@
 		)
 		(uuid "37af221b-b85a-4e37-a6ed-51f947a3c168")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.5433 91.44 0)
+			(at 180.5433 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +3165,7 @@
 	)
 	(global_label "LED_CNTRL"
 		(shape input)
-		(at 172.72 80.01 0)
+		(at 172.72 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3323,7 +3175,7 @@
 		)
 		(uuid "49ecc24f-0df7-469f-b4ba-648e1fd5f71e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.9861 80.01 0)
+			(at 185.9861 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +3297,7 @@
 	)
 	(global_label "COL0"
 		(shape input)
-		(at 172.72 83.82 0)
+		(at 172.72 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3455,7 +3307,7 @@
 		)
 		(uuid "a546c8df-f7bc-4d9c-957a-06e3dd366ca4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.5433 83.82 0)
+			(at 180.5433 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,73 +3428,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 275.59 137.16 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "002b99eb-d460-4070-98b1-f1a589000b3b")
-		(property "Reference" "#PWR08"
-			(at 275.59 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 275.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 275.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31174116-adca-49d8-8ed9-4f3bcf1d9036")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCCQ")
 		(at 196.85 76.2 0)
 		(unit 1)
@@ -3703,6 +3488,83 @@
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 127 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08afc84f-2f2f-4384-bddd-0db7671663c8")
+		(property "Reference" "D20"
+			(at 114.3 153.5998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 114.3 156.1398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 125.73 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 124.46 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48ce3c3d-d3c6-4e24-9c49-4500143ec645")
+		)
+		(pin "2"
+			(uuid "535df0d0-ba45-4c68-b98f-d8ae4643f301")
+		)
+		(pin "3"
+			(uuid "1f265508-d465-466d-a08f-8e7659280037")
+		)
+		(pin "4"
+			(uuid "1b18d2b7-e918-4480-b4ff-f6edce8e1789")
+		)
+		(instances
+			(project "macropad"
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -3775,53 +3637,53 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 36.83 152.4 0)
-		(mirror y)
+		(lib_id "LED:SK6812MINI")
+		(at 144.78 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14f286df-e779-4a2b-8553-cbe9e176558d")
-		(property "Reference" "#PWR09"
-			(at 36.83 158.75 0)
+		(uuid "11753d3f-b26c-4004-9ceb-71684e3a397e")
+		(property "Reference" "D16"
+			(at 157.48 112.9598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 157.48 115.4998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 146.05 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 36.83 157.48 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 147.32 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 152.4 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,12 +3692,98 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4ccf6a7-69bc-4c61-967d-1a6b17f3df01")
+			(uuid "ea4bb502-5bdb-41b9-9070-47116958c40b")
+		)
+		(pin "2"
+			(uuid "551a620f-ff33-4727-97a9-2cbf93e673b2")
+		)
+		(pin "3"
+			(uuid "da4ebc52-6bde-4f8c-bfa4-4e0b067c1793")
+		)
+		(pin "4"
+			(uuid "6950c4bd-0193-479d-b049-cabe8fb8a12e")
 		)
 		(instances
-			(project ""
+			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "#PWR09")
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 110.49 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11fcafd2-2f69-4b40-a890-b662878638d7")
+		(property "Reference" "D21"
+			(at 97.79 153.5998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 97.79 156.1398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 107.95 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 110.49 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0a8aed6-94e1-4657-b358-72cfad3ac50c")
+		)
+		(pin "2"
+			(uuid "a5bd37be-72de-4752-9e1d-81a79b46da99")
+		)
+		(pin "3"
+			(uuid "f63e39c5-0d2c-4aa4-8aa5-6a7aad19f7ba")
+		)
+		(pin "4"
+			(uuid "11d5d2ca-466f-4eb2-836b-e87029a0f8c7")
+		)
+		(instances
+			(project "macropad"
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -3981,35 +3929,34 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 191.77 118.11 0)
+		(lib_id "LED:SK6812MINI")
+		(at 40.64 160.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2a44b59e-69a2-4252-9b97-863a23149740")
-		(property "Reference" "D16"
-			(at 193.9133 107.95 0)
+		(uuid "2f1fde53-c0f2-471e-96d4-04ab01661901")
+		(property "Reference" "D25"
+			(at 27.94 153.5998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 193.9133 110.49 0)
+		(property "Value" "SK6812MINI"
+			(at 27.94 156.1398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 193.04 125.73 0)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 39.37 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,8 +3965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 194.31 127.635 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 38.1 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +3976,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 191.77 118.11 0)
+			(at 40.64 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,57 +3984,55 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "1794f4d4-2dd4-4f85-b2c9-70643cdbca5b")
-		)
 		(pin "1"
-			(uuid "8720456a-da6f-43f3-b5ba-16cbcf9f26a4")
-		)
-		(pin "3"
-			(uuid "e8712f7f-7876-4839-89f6-533129a81c81")
+			(uuid "802789c4-5bb7-4b48-9b24-f953bcf055a7")
 		)
 		(pin "2"
-			(uuid "53309fd1-0fd5-4f3f-a682-a2e6b8b57c28")
+			(uuid "d079f5c1-1b1c-403d-8587-01445b7acd15")
+		)
+		(pin "3"
+			(uuid "e5fcae79-c444-4438-8a28-61c7803c8c06")
+		)
+		(pin "4"
+			(uuid "77e167bc-dffb-4680-9035-117e50e9de70")
 		)
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D16")
+					(reference "D25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 165.1 118.11 0)
+		(lib_id "LED:SK6812MINI")
+		(at 58.42 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e274e89-530f-48c7-83e8-4ad33973fe7a")
-		(property "Reference" "D15"
-			(at 167.2433 107.95 0)
+		(uuid "324ca149-ee26-4b87-a38d-d3325a17b3f5")
+		(property "Reference" "D11"
+			(at 71.12 112.9598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 167.2433 110.49 0)
+		(property "Value" "SK6812MINI"
+			(at 71.12 115.4998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 166.37 125.73 0)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,8 +4041,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 167.64 127.635 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 60.96 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4052,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 165.1 118.11 0)
+			(at 58.42 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,100 +4060,22 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "e1c44633-a251-40e2-b88b-66da92710c13")
-		)
 		(pin "1"
-			(uuid "650b9f34-cd0d-48ef-aa02-41e53828d649")
-		)
-		(pin "3"
-			(uuid "0d085c15-e53b-4163-a5ee-6dcac581652a")
+			(uuid "20c44fe7-ec8e-49de-b33f-7b2d7a020ba2")
 		)
 		(pin "2"
-			(uuid "ffb06beb-55c0-43d1-b16f-d4e078b9de80")
+			(uuid "24656363-f9c9-418c-a97a-18410706c1d4")
+		)
+		(pin "3"
+			(uuid "8b3b800e-0fe3-4379-8dd8-781950dd7fee")
+		)
+		(pin "4"
+			(uuid "13fd7267-f44e-4465-a28c-b795677ec280")
 		)
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 85.09 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "328eea26-5c25-4331-9c1a-011d899dcefd")
-		(property "Reference" "D12"
-			(at 87.2333 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 87.2333 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 86.36 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 87.63 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 85.09 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7ca59487-24b1-4367-b4c4-5fda03846b62")
-		)
-		(pin "1"
-			(uuid "b08c87c9-de83-4eae-98dc-646a0e9f2c98")
-		)
-		(pin "3"
-			(uuid "d5649b7b-3eb7-4baa-b3a9-2acc8c73aa8a")
-		)
-		(pin "2"
-			(uuid "29b5dc4a-acee-492d-b0d8-00e956afba14")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4371,84 +4238,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 52.07 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e1139f5-73fb-4a3d-b26a-9171ca1548e0")
-		(property "Reference" "D21"
-			(at 48.9519 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 48.9519 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 53.34 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 54.61 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 52.07 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f82c4e8a-f1a9-4906-8687-c63750990f21")
-		)
-		(pin "1"
-			(uuid "6087d9bc-9d80-467e-b128-4232e9025be6")
-		)
-		(pin "3"
-			(uuid "89f608f9-4e2a-4552-9ed2-280ed3ee552f")
-		)
-		(pin "2"
-			(uuid "6387ecad-9df5-462b-a43f-b9bfede866f0")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 39.37 24.13 0)
 		(unit 1)
@@ -4587,162 +4376,6 @@
 			(project ""
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
 					(reference "OLED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 158.75 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46ea8e83-0e10-436c-bf12-6023fa521b17")
-		(property "Reference" "D25"
-			(at 155.6319 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 155.6319 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 160.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 161.29 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 158.75 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c00a21f9-d43f-4153-bb9a-eb49d0dba462")
-		)
-		(pin "1"
-			(uuid "75a85b99-dfed-4c77-9137-eba9c167b171")
-		)
-		(pin "3"
-			(uuid "9aeae762-f5a8-4906-8342-0681041f06ca")
-		)
-		(pin "2"
-			(uuid "e7521203-5c12-4687-9b3a-1f61254e1e51")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 185.42 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "486e7914-475c-4eb5-b1e6-2587bc236919")
-		(property "Reference" "D26"
-			(at 182.3019 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 182.3019 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 186.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 187.96 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 185.42 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "98df6400-ec40-4923-b37c-a7daa3ac1598")
-		)
-		(pin "1"
-			(uuid "eb96407b-c496-45f0-b78d-36b0b8a57e02")
-		)
-		(pin "3"
-			(uuid "8717f033-0c6a-4b7e-9dec-79917ddc4855")
-		)
-		(pin "2"
-			(uuid "79cc7317-11c8-47d4-b1e3-e9731944849c")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -4905,55 +4538,17 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 218.44 118.11 0)
+		(lib_id "power:VCC")
+		(at 27.94 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fd27346-3ae1-41ae-b987-992a5b9f6504")
-		(property "Reference" "D17"
-			(at 220.5833 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 220.5833 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 219.71 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 220.98 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 218.44 118.11 0)
+		(uuid "5a338ba3-b29f-479d-903e-a54e9047929b")
+		(property "Reference" "#PWR09"
+			(at 27.94 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,100 +4556,48 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "df40a6cf-dab7-460f-ae88-fcb4c97c7493")
+		(property "Value" "VCC"
+			(at 27.94 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 27.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "0a98f218-9383-440f-9e63-050dcf133a21")
-		)
-		(pin "3"
-			(uuid "4b99b4b1-f123-41cb-be04-1f3fab837066")
-		)
-		(pin "2"
-			(uuid "65751869-90a3-430b-8d0b-dbd186823a3f")
+			(uuid "9f985093-e3c7-494a-af7a-3e59f77c5b4b")
 		)
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 105.41 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56b84fc8-aafb-4e34-8bf7-a77f6bda7ae2")
-		(property "Reference" "D23"
-			(at 102.2919 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 102.2919 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 106.68 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 107.95 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 105.41 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "beffa29c-3757-4fce-a714-bca26d64ed9a")
-		)
-		(pin "1"
-			(uuid "62e136bc-8a9c-4bbf-bd00-0dc496692d90")
-		)
-		(pin "3"
-			(uuid "d48a84b1-43c8-4e2a-95a0-a2aa2109ed91")
-		)
-		(pin "2"
-			(uuid "82c22999-d8f6-41b8-9b1a-eb4bff33e563")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D23")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5122,6 +4665,72 @@
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 30.48 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6076c593-55bd-479f-9c5e-c4ea80802f09")
+		(property "Reference" "#PWR06"
+			(at 30.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 30.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 30.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e662909e-b0a4-42db-aba1-f2436ea02fb3")
+		)
+		(instances
+			(project ""
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5216,158 +4825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 39.37 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7285028e-7c4b-4093-9045-7174ab08a8c4")
-		(property "Reference" "D10"
-			(at 27.94 111.6898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 27.94 114.2298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 40.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 41.91 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 39.37 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9893d621-1c47-4644-8ad3-295a64d6bacf")
-		)
-		(pin "1"
-			(uuid "522b9f41-b784-442f-a86a-b2997f694c9f")
-		)
-		(pin "3"
-			(uuid "5daacee8-4704-4c9f-8a1c-068c50cf37ba")
-		)
-		(pin "2"
-			(uuid "7d74dbd9-8d66-45d1-9da2-888787f52143")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 257.81 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72f45d41-8977-44e2-b217-30e812254907")
-		(property "Reference" "D29"
-			(at 246.38 138.3598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 246.38 140.8998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 259.08 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 260.35 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 257.81 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b2045cd1-8b4f-4142-988c-71622d8d85c1")
-		)
-		(pin "1"
-			(uuid "219c6784-1aaa-46fc-b97a-e897c37b7dfe")
-		)
-		(pin "3"
-			(uuid "48d27127-6eee-47fe-8d7b-d834b67f23cd")
-		)
-		(pin "2"
-			(uuid "9d635b4f-51a3-4ebe-91e6-795552f3cc56")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 248.92 95.25 0)
 		(unit 1)
@@ -5375,7 +4832,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75e3f68e-21fa-43fc-b79b-a4953fc58279")
 		(property "Reference" "#PWR05"
 			(at 248.92 101.6 0)
@@ -5590,55 +5046,16 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 78.74 144.78 0)
+		(lib_id "power:GND")
+		(at 30.48 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85c832f7-c76c-4cb7-a802-66cc0679845d")
-		(property "Reference" "D22"
-			(at 75.6219 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 75.6219 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 80.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 81.28 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 78.74 144.78 0)
+		(uuid "8953b3d6-3f63-4308-b855-6960428a8b76")
+		(property "Reference" "#PWR07"
+			(at 30.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,22 +5063,48 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "fcde3aaa-0ee8-4a1e-b654-faa8b37740cb")
+		(property "Value" "GND"
+			(at 30.48 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "46d7064d-fc20-4a15-8c12-3da090fa3125")
-		)
-		(pin "3"
-			(uuid "c2f4b3d8-7099-42b9-a6bb-c86e1f78b409")
-		)
-		(pin "2"
-			(uuid "a954672f-bc2d-46f1-ab7e-3fb62e7e3286")
+			(uuid "b8ef55e2-0ad9-4f69-ae5e-4ea613399354")
 		)
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D22")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5801,33 +5244,33 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 265.43 118.11 0)
+		(lib_id "LED:SK6812MINI")
+		(at 91.44 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b7996e2-5c25-4d10-be48-18269fedae12")
-		(property "Reference" "D19"
-			(at 276.86 111.6898 0)
+		(uuid "8ba82c7a-1803-4120-aab5-ea158631ec0b")
+		(property "Reference" "D13"
+			(at 104.14 112.9598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 276.86 114.2298 0)
+		(property "Value" "SK6812MINI"
+			(at 104.14 115.4998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 266.7 125.73 0)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 92.71 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,8 +5279,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 267.97 127.635 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 93.98 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +5290,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 265.43 118.11 0)
+			(at 91.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,22 +5298,87 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "983fbd76-32ac-4763-9cec-188b8b764327")
-		)
 		(pin "1"
-			(uuid "bb2dce68-8a5a-42c5-9c7a-ecf1124ecac7")
-		)
-		(pin "3"
-			(uuid "58020401-8e35-42e7-bdeb-648013a87184")
+			(uuid "07be4687-c223-4dd0-a5f9-771464557ac2")
 		)
 		(pin "2"
-			(uuid "84ce8021-2f32-4100-85d1-2157623e2ecd")
+			(uuid "ff6237c6-1922-4c44-aa48-7d21c56d2323")
+		)
+		(pin "3"
+			(uuid "6032d45b-bd18-4c08-a6d5-c1b0808e7b37")
+		)
+		(pin "4"
+			(uuid "c52250d9-dfab-4045-bf72-66370c6536d8")
 		)
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D19")
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8caaa652-3de9-4a0e-ad94-dd730768a22f")
+		(property "Reference" "#PWR08"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "659a081f-091e-4ad5-99a5-85a24987f910")
+		)
+		(instances
+			(project "macropad"
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6013,6 +5521,83 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 57.15 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "929006f9-d03d-46eb-801f-50b6e3aa9490")
+		(property "Reference" "D24"
+			(at 44.45 153.5998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 44.45 156.1398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 54.61 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 57.15 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fda59a1e-00e4-40c2-8578-74dbc3c5500f")
+		)
+		(pin "2"
+			(uuid "8ab03a08-418b-446c-ac34-57a7c91ac0c2")
+		)
+		(pin "3"
+			(uuid "542252d2-5d90-42a1-b86d-e1a26e35e043")
+		)
+		(pin "4"
+			(uuid "7cc76a90-15b2-4daa-aa44-5602d809b138")
+		)
+		(instances
+			(project "macropad"
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 172.72 68.58 0)
 		(unit 1)
@@ -6079,35 +5664,34 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 132.08 144.78 0)
+		(lib_id "LED:SK6812MINI")
+		(at 73.66 160.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9f841f59-a205-4651-8425-e3f560941751")
-		(property "Reference" "D24"
-			(at 128.9619 133.35 0)
+		(uuid "9d0ca66f-7905-409b-b1e1-113e7b93f95a")
+		(property "Reference" "D23"
+			(at 60.96 153.5998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 128.9619 135.89 0)
+		(property "Value" "SK6812MINI"
+			(at 60.96 156.1398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 133.35 152.4 0)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 72.39 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,8 +5700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 134.62 154.305 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 71.12 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +5711,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 132.08 144.78 0)
+			(at 73.66 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,57 +5719,54 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "90493105-bfeb-4a80-8add-9a7e53fc9eef")
-		)
 		(pin "1"
-			(uuid "eb4cc5c9-a5ab-4894-8bb8-7c9bed94077b")
-		)
-		(pin "3"
-			(uuid "f6595e03-7d6c-4147-990d-1e02b14dc03b")
+			(uuid "daeff3e2-a41e-4bc1-af64-c104d1ccd6e8")
 		)
 		(pin "2"
-			(uuid "216f4eaf-c23d-46b8-95b3-47ffbdd994c3")
+			(uuid "03b6bcff-7f0d-4471-8502-75313c928ad3")
+		)
+		(pin "3"
+			(uuid "456a5136-c578-445f-a476-1edb6cf143cd")
+		)
+		(pin "4"
+			(uuid "1a7ee382-7c0d-45b7-80b2-04ac97b1cefa")
 		)
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D24")
+					(reference "D23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 238.76 144.78 0)
+		(lib_id "LED:SK6812MINI")
+		(at 161.29 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5867e8e-446b-492b-bd26-d32673015157")
-		(property "Reference" "D28"
-			(at 235.6419 133.35 0)
+		(uuid "9dc26ae6-9c26-4366-84f2-e71455894d40")
+		(property "Reference" "D17"
+			(at 166.878 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 235.6419 135.89 0)
+		(property "Value" "SK6812MINI"
+			(at 173.99 115.4998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 240.03 152.4 0)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 162.56 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,8 +5775,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 241.3 154.305 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 163.83 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +5786,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 238.76 144.78 0)
+			(at 161.29 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,22 +5794,99 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "0775f3c8-1494-41b0-b1e0-7fa83f1a8db4")
-		)
 		(pin "1"
-			(uuid "72c8dcdb-bbd8-4519-8e23-2d1219fa945b")
-		)
-		(pin "3"
-			(uuid "e107c167-fa8d-484f-b61a-5e35538044f7")
+			(uuid "b5bcd47d-5f45-4137-ae18-b87d4ba308fe")
 		)
 		(pin "2"
-			(uuid "651488c2-b5e8-4f0b-918c-702d0bd148a4")
+			(uuid "19c216e7-0eef-4461-a9c3-60541df1c87a")
+		)
+		(pin "3"
+			(uuid "663658ff-46f1-407a-a3b6-733ced766772")
+		)
+		(pin "4"
+			(uuid "7c03da59-4cc7-4ff6-a338-2384b347d98e")
 		)
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D28")
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 91.44 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eb3610f-94d7-424a-9698-e083c29e71cd")
+		(property "Reference" "D22"
+			(at 78.74 153.5998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 78.74 156.1398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 90.17 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 88.9 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 91.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1e34e03-2949-4ee1-a670-d7035bcd590d")
+		)
+		(pin "2"
+			(uuid "786c24af-b63a-4e33-9bcd-c7426b06d97c")
+		)
+		(pin "3"
+			(uuid "f6517890-4aff-4652-885e-537a305ec521")
+		)
+		(pin "4"
+			(uuid "a4d6f2eb-c267-44ea-bd2d-ab92e5cc9d20")
+		)
+		(instances
+			(project "macropad"
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -6323,52 +5981,54 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 41.91 110.49 0)
+		(lib_id "LED:SK6812MINI")
+		(at 161.29 160.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5791027-e05b-4905-8347-51081c1cc75b")
-		(property "Reference" "#PWR06"
-			(at 41.91 114.3 0)
+		(uuid "aec7570a-93c8-4d83-a46f-74db9879ec46")
+		(property "Reference" "D18"
+			(at 148.59 153.5998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 148.59 156.1398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 160.02 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 41.91 105.41 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 158.75 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 41.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 41.91 110.49 0)
+		(property "Description" "RGB LED with integrated controller"
+			(at 161.29 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,12 +6037,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa52d4ce-05ea-4d35-a4d8-57ac0e5ab216")
+			(uuid "2a788582-8b7f-41e7-9d19-9fdcb7f85eb4")
+		)
+		(pin "2"
+			(uuid "08e559e9-dcd8-4092-8c70-8e478eb51004")
+		)
+		(pin "3"
+			(uuid "79e40210-db5c-43fd-a8fc-d960e31bc172")
+		)
+		(pin "4"
+			(uuid "e036db7c-40d2-4562-84c4-650e8d20b402")
 		)
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "#PWR06")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -6633,8 +6302,84 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 17.78 130.81 0)
+		(lib_id "LED:SK6812MINI")
+		(at 128.27 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce29e335-3ab5-47d8-a662-cccb14823816")
+		(property "Reference" "D15"
+			(at 140.97 112.9598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 140.97 115.4998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 130.81 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14c4ac01-9ce4-4a38-9fce-6ca12b0f8faf")
+		)
+		(pin "2"
+			(uuid "c3bca38d-828e-4bd3-b644-79be19cb8426")
+		)
+		(pin "3"
+			(uuid "43545dae-c5d7-401f-8e82-65aaca8fae37")
+		)
+		(pin "4"
+			(uuid "6efe87f0-36f5-47a8-8e7c-35a6edad5d04")
+		)
+		(instances
+			(project "macropad"
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 143.51 160.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6642,93 +6387,25 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d83df8f3-d6d1-4a97-abc9-e47234d33fd6")
-		(property "Reference" "#PWR07"
-			(at 17.78 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 17.78 135.89 0)
+		(uuid "d3246fb7-10e0-4b0c-921d-48a845af0dfb")
+		(property "Reference" "D19"
+			(at 130.81 153.5998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 17.78 130.81 0)
+		(property "Value" "SK6812MINI"
+			(at 130.81 156.1398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 17.78 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 17.78 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc49fc7c-cfbd-4719-a7e7-fbba470512f1")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 30.48 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0dea09d-c10a-4ee3-af7c-a56c9e6ad2ea")
-		(property "Reference" "D20"
-			(at 27.3619 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 27.3619 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 31.75 152.4 0)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 142.24 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,8 +6414,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 33.02 154.305 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 140.97 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6425,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 30.48 144.78 0)
+			(at 143.51 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,100 +6433,22 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "ce29661e-e043-479f-94e8-2025ac68da91")
-		)
 		(pin "1"
-			(uuid "d63b0431-4328-4b76-bb66-5846d8ca54b4")
-		)
-		(pin "3"
-			(uuid "101f1e6a-0826-469b-ae57-404209de1c26")
+			(uuid "eb4b201e-84ec-4b0b-a2c2-4519a8f925ef")
 		)
 		(pin "2"
-			(uuid "f5e48eab-b83d-48de-a21e-99f10f9dcdce")
+			(uuid "05f448e5-c8f2-4170-90ce-5a0dba21703c")
+		)
+		(pin "3"
+			(uuid "cdca0516-85d6-417f-a61e-55c5592a37aa")
+		)
+		(pin "4"
+			(uuid "26794f8e-babf-44f1-93fa-d4b792549cae")
 		)
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 243.84 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e154d050-c971-4953-9516-c31da6264118")
-		(property "Reference" "D18"
-			(at 245.9833 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 245.9833 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 245.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 246.38 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 243.84 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "754d9419-6301-40f6-a4d8-9e13fe8f24f4")
-		)
-		(pin "1"
-			(uuid "ee720e37-0ba9-4f4c-8c9d-a70b88aa3cd1")
-		)
-		(pin "3"
-			(uuid "b96ef636-1b62-4544-820c-1989848315d3")
-		)
-		(pin "2"
-			(uuid "7c440ddd-c7fd-4aed-b545-7e015e12a170")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -6944,35 +6543,32 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 111.76 118.11 0)
+		(lib_id "LED:SK6812MINI")
+		(at 40.64 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8ed3e26-6c65-4e1d-9445-1ffcb5a1988c")
-		(property "Reference" "D13"
-			(at 113.9033 107.95 0)
+		(uuid "e6b45d5a-685c-4a72-9b1c-b9fe15f71bbf")
+		(property "Reference" "D10"
+			(at 52.578 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 113.9033 110.49 0)
+		(property "Value" "SK6812MINI"
+			(at 53.34 115.4998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 113.03 125.73 0)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 41.91 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,8 +6577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 114.3 127.635 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 43.18 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +6588,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 111.76 118.11 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,22 +6596,22 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "54303717-1375-446f-804b-7adf5f523908")
-		)
 		(pin "1"
-			(uuid "b3e3928b-3462-4c05-9fec-ca4e8513d783")
-		)
-		(pin "3"
-			(uuid "0adf2759-f685-4ae0-8a1c-0456dc4f94f0")
+			(uuid "0a9a2cce-7541-4e24-9eea-f341aa62e5dd")
 		)
 		(pin "2"
-			(uuid "085ec0ee-ac7d-49c3-b2a0-08b4a7a719ce")
+			(uuid "7f5908ed-f4fc-4e74-bc31-37cf7f44c06a")
+		)
+		(pin "3"
+			(uuid "f1d1bb6a-40ac-4d20-b837-5d502aa184c0")
+		)
+		(pin "4"
+			(uuid "e7cfc77b-fc48-484a-acfb-c5ed96319781")
 		)
 		(instances
-			(project "macropad"
+			(project ""
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D13")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7125,6 +6721,82 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI")
+		(at 74.93 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1623c2c-0a0c-402e-8efe-b5525330fe94")
+		(property "Reference" "D12"
+			(at 87.63 112.9598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 87.63 115.4998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 76.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 77.47 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 74.93 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50ae2a51-25d2-42c0-9abe-634de74545ac")
+		)
+		(pin "2"
+			(uuid "ac5c6de9-65b4-4357-ac71-17436a87fcc0")
+		)
+		(pin "3"
+			(uuid "d76eef80-035c-40f7-ac36-b075b72cbd2c")
+		)
+		(pin "4"
+			(uuid "da2146cc-ba07-4d55-a35d-3cfacdb99ee7")
+		)
+		(instances
+			(project "macropad"
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 34.29 58.42 90)
 		(unit 1)
@@ -7213,113 +6885,33 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 58.42 118.11 0)
+		(lib_id "LED:SK6812MINI")
+		(at 110.49 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f54a1065-381c-4b14-a3cd-d6d0318b7124")
-		(property "Reference" "D11"
-			(at 60.5633 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 60.5633 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 59.69 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 60.96 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 58.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c2fba1b1-b6a2-453b-b6f1-4d79b315e365")
-		)
-		(pin "1"
-			(uuid "3d8f6bf9-657a-43de-bc40-a65c98587d38")
-		)
-		(pin "3"
-			(uuid "ec68a257-df72-40af-bc6c-be33147fa089")
-		)
-		(pin "2"
-			(uuid "d7025131-e125-481a-8acc-909b991ccc59")
-		)
-		(instances
-			(project ""
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 138.43 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb5e0a23-e121-4acf-b1d0-6c868d0ae15f")
+		(uuid "f7d218b5-e8b5-4c95-9d37-e07984e13023")
 		(property "Reference" "D14"
-			(at 140.5733 107.95 0)
+			(at 123.19 112.9598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 140.5733 110.49 0)
+		(property "Value" "SK6812MINI"
+			(at 123.19 115.4998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 139.7 125.73 0)
+		(property "Footprint" "Downloads:SK6812-MINI-E"
+			(at 111.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,8 +6920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 140.97 127.635 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 113.03 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,7 +6931,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 138.43 118.11 0)
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,100 +6939,22 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "24d24f61-4884-4df1-8f8a-11f48d260130")
-		)
 		(pin "1"
-			(uuid "9b7eb5e8-0df9-4423-8b46-53dadd0e580e")
-		)
-		(pin "3"
-			(uuid "e13f573e-54be-4645-a58a-acaf3c08a39d")
+			(uuid "51217d24-1184-48d4-a114-37775ab341e8")
 		)
 		(pin "2"
-			(uuid "cf7b67a4-81d4-4e7d-a517-7109e2a334de")
+			(uuid "9686e6a4-f570-411b-80f6-3d1b61a7520e")
+		)
+		(pin "3"
+			(uuid "d2d29313-8e19-47c3-9cb0-9938aba73e9a")
+		)
+		(pin "4"
+			(uuid "9a51ee28-0b1f-459c-ae18-13695ab27e92")
 		)
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
 					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 212.09 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fce60fed-7dff-4595-9ead-c66027c09863")
-		(property "Reference" "D27"
-			(at 208.9719 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 208.9719 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 213.36 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 214.63 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 212.09 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "aa49507e-0ec4-468b-a999-89ffe6c16320")
-		)
-		(pin "1"
-			(uuid "af688ee2-44c2-45d2-9bc0-f803cf5ca4ad")
-		)
-		(pin "3"
-			(uuid "e685b155-d744-45fb-9806-06eb4f444f14")
-		)
-		(pin "2"
-			(uuid "c4d72c25-9acd-4a74-ab09-c5261aefbbae")
-		)
-		(instances
-			(project "macropad"
-				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D27")
 					(unit 1)
 				)
 			)

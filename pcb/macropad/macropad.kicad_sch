@@ -1827,316 +1827,423 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCCQ"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCCQ"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCCQ\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCCQ_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCCQ_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 256.54 157.48)
+		(at 36.83 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05c951c4-28ee-4b3d-a4b5-8fdb5a55b03e")
 	)
 	(junction
-		(at 59.69 41.91)
+		(at 39.37 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "069bdeec-416b-4751-bda9-e8819496da7b")
+	)
+	(junction
+		(at 62.23 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a98b3fc-0baa-4544-801d-3ccb98329e5a")
 	)
 	(junction
-		(at 187.96 142.24)
+		(at 105.41 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1226874a-079b-46c9-bca7-00e78d84c978")
 	)
 	(junction
-		(at 162.56 123.19)
+		(at 165.1 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12dbba5e-7ca9-4048-b807-5343d99aa895")
 	)
 	(junction
-		(at 214.63 157.48)
+		(at 78.74 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17add6b4-096f-4d54-908c-93c092b468b1")
 	)
 	(junction
-		(at 81.28 157.48)
+		(at 212.09 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19291651-2a2f-4235-a478-2c6f260e8850")
 	)
 	(junction
-		(at 241.3 138.43)
+		(at 243.84 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1be3ec16-24b1-4705-a776-76e033e5c4e8")
 	)
 	(junction
-		(at 134.62 157.48)
+		(at 158.75 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ecbc0f3-135a-416e-87ec-48077bc62f11")
 	)
 	(junction
-		(at 241.3 157.48)
+		(at 52.07 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "219e14bd-3d31-4630-a3df-879a555b59eb")
 	)
 	(junction
-		(at 109.22 123.19)
+		(at 58.42 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23a5c5e8-2ca7-4df5-a8db-2d626f075358")
+	)
+	(junction
+		(at 111.76 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2744a636-ed7e-49bc-a895-ab558c87e356")
 	)
 	(junction
-		(at 59.69 57.15)
+		(at 62.23 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f88fda2-62d6-4409-8af8-85a803217b28")
 	)
 	(junction
-		(at 135.89 138.43)
+		(at 138.43 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39a1bfc4-1330-436f-b5c4-5c1d4d6b7696")
 	)
 	(junction
-		(at 55.88 123.19)
+		(at 58.42 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4375040e-fe64-4b04-b1dc-450af883870f")
 	)
 	(junction
-		(at 81.28 142.24)
+		(at 212.09 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4560567e-34ec-449a-a4f0-51c11a4e0666")
 	)
 	(junction
-		(at 262.89 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "486a32f6-afe6-4c22-8d3d-2df6fce3ae20")
-	)
-	(junction
-		(at 69.85 68.58)
+		(at 72.39 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e422497-c980-4924-a648-999163ad8970")
 	)
 	(junction
-		(at 82.55 138.43)
+		(at 85.09 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50696390-79ad-4951-96c4-2a4c03d10df6")
 	)
 	(junction
-		(at 135.89 123.19)
+		(at 138.43 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5092becb-d8b6-4c04-9d6e-4169dfc33576")
 	)
 	(junction
-		(at 170.18 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "525355b9-cf3e-4df0-b73d-d6432bfe3da4")
-	)
-	(junction
-		(at 59.69 73.66)
+		(at 62.23 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cad36d0-5054-4ffe-9c83-a0c00973cfcd")
 	)
 	(junction
-		(at 55.88 68.58)
+		(at 58.42 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "650c6a17-a190-4499-9afd-e7c62d00e272")
 	)
 	(junction
-		(at 241.3 142.24)
+		(at 52.07 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "670f018f-6032-4c3f-bcb0-accfdfdbfaf8")
 	)
 	(junction
-		(at 54.61 157.48)
+		(at 238.76 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "726e59c3-2472-4de6-8563-09fb57a07680")
 	)
 	(junction
-		(at 82.55 123.19)
+		(at 85.09 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "733bf407-a6ac-4e17-b461-9e102fe29bb7")
 	)
 	(junction
-		(at 55.88 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73f9ab2d-8a84-4e4e-bc3c-1c0cd421e900")
-	)
-	(junction
-		(at 35.56 142.24)
+		(at 257.81 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74b6e4a1-8db3-4142-931b-179a7c28256d")
 	)
 	(junction
-		(at 241.3 123.19)
+		(at 243.84 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7530eac6-0ac1-4afc-b2ad-942121a9612d")
 	)
 	(junction
-		(at 45.72 57.15)
+		(at 48.26 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7741e819-839a-4116-9784-d7c873e5ad24")
 	)
 	(junction
-		(at 262.89 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77cb6a46-dd1a-42ac-a37b-245c4fd15704")
-	)
-	(junction
-		(at 161.29 157.48)
+		(at 132.08 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "796ff414-a878-482d-bf1b-111dea54b9b2")
 	)
 	(junction
-		(at 262.89 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82f00eda-243a-4213-9472-62c3f20cb1dc")
-	)
-	(junction
-		(at 214.63 142.24)
+		(at 78.74 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fac3f82-fc7e-4225-9f02-9468024c2ebc")
 	)
 	(junction
-		(at 109.22 138.43)
+		(at 111.76 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91b7dc58-8f3b-41a3-a2f6-1adebbe97245")
 	)
 	(junction
-		(at 54.61 142.24)
+		(at 238.76 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "970c1738-05e6-4821-9c1a-432b1e80a906")
 	)
 	(junction
-		(at 69.85 52.07)
+		(at 72.39 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d512a62-fc5c-404e-a41e-6435e57209f5")
 	)
 	(junction
-		(at 41.91 68.58)
+		(at 44.45 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac5ac1e5-3d0e-4a69-8e7f-bc0683c5325e")
 	)
 	(junction
-		(at 189.23 123.19)
+		(at 191.77 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0eb640a-aca0-4759-ac73-25604fd55e45")
 	)
 	(junction
-		(at 41.91 52.07)
+		(at 44.45 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba915af3-90d3-4955-967e-7a4e2736f15b")
 	)
 	(junction
-		(at 45.72 73.66)
+		(at 48.26 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c00c2189-dadf-4db1-a6f5-ee0c29cbbea1")
 	)
 	(junction
-		(at 215.9 138.43)
+		(at 218.44 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3381b75-d9d5-4b67-8d7f-87b9f8176803")
 	)
 	(junction
-		(at 262.89 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4a05b73-b5fe-405f-9782-a14322b61c43")
-	)
-	(junction
-		(at 187.96 157.48)
+		(at 105.41 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcaffb7c-5012-4f8f-9eba-862aa560e0bf")
 	)
 	(junction
-		(at 134.62 142.24)
+		(at 158.75 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e388789f-006b-4ddf-8dcc-3f751a0d6d15")
 	)
 	(junction
-		(at 189.23 138.43)
+		(at 191.77 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3ffe89d-2833-4254-9b58-a87ec0b912fa")
 	)
 	(junction
-		(at 215.9 123.19)
+		(at 218.44 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5733d36-3c97-45bb-88a9-7560b213eb4f")
 	)
 	(junction
-		(at 162.56 138.43)
+		(at 165.1 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e596cd9f-cfb9-49a4-8d60-004590fa57c8")
 	)
 	(junction
-		(at 107.95 157.48)
+		(at 41.91 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5c33115-8eb7-4c2c-be9b-f01b8114d8f6")
+	)
+	(junction
+		(at 185.42 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e68ec238-7f1c-4a0f-a65a-7e541fc53c6c")
 	)
 	(junction
-		(at 107.95 142.24)
+		(at 185.42 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec6bb9bd-7798-4dc8-9c02-354068d3d1bc")
 	)
 	(junction
-		(at 161.29 142.24)
+		(at 132.08 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee634eb6-b00e-475b-97db-17d4099499d4")
 	)
 	(junction
-		(at 45.72 41.91)
+		(at 48.26 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0900f66-7128-465a-b443-e426b7971ee4")
 	)
 	(junction
-		(at 55.88 52.07)
+		(at 58.42 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbd61d62-6d41-4b1b-b987-ef58a9197442")
 	)
 	(wire
 		(pts
-			(xy 36.83 123.19) (xy 55.88 123.19)
+			(xy 39.37 110.49) (xy 41.91 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2146,17 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 95.25) (xy 262.89 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "064ee052-8070-4a6a-8f4c-89a90f5852eb")
-	)
-	(wire
-		(pts
-			(xy 241.3 157.48) (xy 256.54 157.48)
+			(xy 52.07 152.4) (xy 36.83 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2166,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 138.43) (xy 241.3 138.43)
+			(xy 218.44 125.73) (xy 243.84 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2176,17 +2273,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 142.24) (xy 27.94 26.67)
+			(xy 41.91 110.49) (xy 58.42 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f98b5aa-3a46-4c78-9a5c-3b2bab61455d")
+		(uuid "0f1da392-613f-4c29-8433-d7800258a4e5")
 	)
 	(wire
 		(pts
-			(xy 35.56 142.24) (xy 27.94 142.24)
+			(xy 257.81 137.16) (xy 275.59 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2196,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 99.06) (xy 246.38 107.95)
+			(xy 248.92 86.36) (xy 248.92 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2206,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 130.81) (xy 208.28 130.81)
+			(xy 199.39 118.11) (xy 210.82 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 142.24) (xy 81.28 142.24)
+			(xy 185.42 137.16) (xy 212.09 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2226,7 +2323,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 185.42 85.09)
+			(xy 172.72 72.39) (xy 187.96 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2236,7 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 142.24) (xy 187.96 142.24)
+			(xy 78.74 137.16) (xy 105.41 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2246,17 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 91.44) (xy 193.04 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a68fc7c-90af-4f1b-a935-8ed6d69fcc82")
-	)
-	(wire
-		(pts
-			(xy 215.9 123.19) (xy 241.3 123.19)
+			(xy 218.44 110.49) (xy 243.84 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2266,17 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 85.09) (xy 134.62 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e1412d4-15d5-4bb3-adc1-4f5e68dc01cb")
-	)
-	(wire
-		(pts
-			(xy 195.58 149.86) (xy 207.01 149.86)
+			(xy 97.79 144.78) (xy 86.36 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 68.58) (xy 55.88 96.52)
+			(xy 58.42 55.88) (xy 58.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2296,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 130.81) (xy 255.27 130.81)
+			(xy 251.46 118.11) (xy 257.81 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2306,7 +2383,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 149.86) (xy 127 149.86)
+			(xy 177.8 144.78) (xy 166.37 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2316,17 +2393,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 99.06) (xy 170.18 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "255de795-573c-4a9c-b2dd-99ecae8141ae")
-	)
-	(wire
-		(pts
-			(xy 241.3 142.24) (xy 214.63 142.24)
+			(xy 52.07 137.16) (xy 78.74 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2336,17 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 104.14) (xy 170.18 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d188b50-b3c0-454e-9141-2f68dad96e16")
-	)
-	(wire
-		(pts
-			(xy 81.28 157.48) (xy 107.95 157.48)
+			(xy 212.09 152.4) (xy 185.42 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2356,7 +2413,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 73.66) (xy 45.72 73.66)
+			(xy 172.72 76.2) (xy 196.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d1c87b-33ee-4fa8-ab8f-7c1edfb0ff4a")
+	)
+	(wire
+		(pts
+			(xy 34.29 60.96) (xy 48.26 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2366,17 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 26.67) (xy 262.89 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33667e36-47d2-41f8-95de-2917ced61c38")
-	)
-	(wire
-		(pts
-			(xy 59.69 73.66) (xy 74.93 73.66)
+			(xy 62.23 60.96) (xy 77.47 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2386,7 +2443,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 142.24) (xy 134.62 142.24)
+			(xy 132.08 137.16) (xy 158.75 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2396,7 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 138.43) (xy 189.23 138.43)
+			(xy 165.1 125.73) (xy 191.77 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2406,7 +2463,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 149.86) (xy 233.68 149.86)
+			(xy 71.12 144.78) (xy 59.69 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2416,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 52.07) (xy 41.91 68.58)
+			(xy 44.45 39.37) (xy 44.45 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 142.24) (xy 262.89 142.24)
+			(xy 52.07 137.16) (xy 30.48 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2436,17 +2493,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 92.71) (xy 170.18 92.71)
+			(xy 39.37 125.73) (xy 58.42 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42608cfd-9164-413f-b504-3b12d120665d")
+		(uuid "41d906d2-82c8-48b9-aa7e-754083276499")
 	)
 	(wire
 		(pts
-			(xy 256.54 157.48) (xy 262.89 157.48)
+			(xy 36.83 152.4) (xy 30.48 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2456,17 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 96.52) (xy 134.62 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "460586a5-f5eb-4b82-b0a8-e26619d55ff4")
-	)
-	(wire
-		(pts
-			(xy 161.29 157.48) (xy 187.96 157.48)
+			(xy 132.08 152.4) (xy 105.41 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 157.48) (xy 81.28 157.48)
+			(xy 238.76 152.4) (xy 212.09 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2486,37 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 101.6) (xy 217.17 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ca27bdb-3e93-4b60-bf5e-cee43f8320df")
-	)
-	(wire
-		(pts
-			(xy 29.21 104.14) (xy 134.62 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5145e4bd-e719-46db-b303-50d57618ecab")
-	)
-	(wire
-		(pts
-			(xy 193.04 91.44) (xy 193.04 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "527388f5-292e-4e3a-a507-3d62ff9b11ea")
-	)
-	(wire
-		(pts
-			(xy 81.28 142.24) (xy 54.61 142.24)
+			(xy 212.09 137.16) (xy 238.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 149.86) (xy 255.27 149.86)
+			(xy 44.45 144.78) (xy 38.1 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2536,17 +2553,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 130.81) (xy 270.51 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c3d7571-7f66-491b-83c1-d11eb39acdfc")
-	)
-	(wire
-		(pts
-			(xy 45.72 57.15) (xy 59.69 57.15)
+			(xy 48.26 44.45) (xy 62.23 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 149.86) (xy 153.67 149.86)
+			(xy 151.13 144.78) (xy 139.7 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2566,7 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 138.43) (xy 82.55 138.43)
+			(xy 58.42 125.73) (xy 85.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2576,27 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 123.19) (xy 262.89 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "655ac7e4-cdc4-44b5-86c4-83a87e1f0b67")
-	)
-	(wire
-		(pts
-			(xy 74.93 73.66) (xy 74.93 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67bc1a48-843c-44d8-8b11-d8b103b249fe")
-	)
-	(wire
-		(pts
-			(xy 88.9 149.86) (xy 100.33 149.86)
+			(xy 204.47 144.78) (xy 193.04 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2606,27 +2593,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 96.52) (xy 170.18 96.52)
+			(xy 22.86 129.54) (xy 22.86 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69b811e2-831c-4d3a-bd8e-729aae70f4dc")
+		(uuid "6ab779f4-fc34-4881-b6b8-e9aea3cdaae5")
 	)
 	(wire
 		(pts
-			(xy 74.93 88.9) (xy 134.62 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce6ec3b-3c85-43e3-818f-c31e58e5ad82")
-	)
-	(wire
-		(pts
-			(xy 31.75 41.91) (xy 45.72 41.91)
+			(xy 34.29 29.21) (xy 48.26 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2636,17 +2613,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 81.28) (xy 262.89 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706777e1-dafa-4f65-9f03-363adcd06219")
-	)
-	(wire
-		(pts
-			(xy 162.56 123.19) (xy 189.23 123.19)
+			(xy 165.1 110.49) (xy 191.77 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2656,27 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 100.33) (xy 134.62 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "797042a0-4953-4325-9531-cc886b3f5cb9")
-	)
-	(wire
-		(pts
-			(xy 246.38 87.63) (xy 190.5 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a24e3d5-0be1-4ca0-9768-0f2369609328")
-	)
-	(wire
-		(pts
-			(xy 45.72 73.66) (xy 59.69 73.66)
+			(xy 48.26 60.96) (xy 62.23 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 130.81) (xy 233.68 130.81)
+			(xy 226.06 118.11) (xy 236.22 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +2643,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 130.81) (xy 154.94 130.81)
+			(xy 146.05 118.11) (xy 157.48 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2706,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 138.43) (xy 162.56 138.43)
+			(xy 138.43 125.73) (xy 165.1 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2716,17 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 92.71 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8489c9e3-afb0-4339-9888-13f20141c394")
-	)
-	(wire
-		(pts
-			(xy 189.23 138.43) (xy 215.9 138.43)
+			(xy 191.77 125.73) (xy 218.44 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2736,7 +2673,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 52.07) (xy 69.85 68.58)
+			(xy 39.37 125.73) (xy 17.78 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4d62f8-6e9a-4b2e-b1c9-e137bc890163")
+	)
+	(wire
+		(pts
+			(xy 72.39 39.37) (xy 72.39 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2746,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 157.48) (xy 54.61 157.48)
+			(xy 257.81 152.4) (xy 238.76 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2756,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 57.15) (xy 83.82 57.15)
+			(xy 62.23 44.45) (xy 86.36 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2766,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 157.48) (xy 241.3 157.48)
+			(xy 78.74 152.4) (xy 52.07 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2776,17 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 95.25) (xy 262.89 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91d2c3b7-40f1-4141-9437-5d16abe6db8a")
-	)
-	(wire
-		(pts
-			(xy 134.62 142.24) (xy 107.95 142.24)
+			(xy 158.75 137.16) (xy 185.42 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 130.81) (xy 74.93 130.81)
+			(xy 66.04 118.11) (xy 77.47 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2806,7 +2743,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 123.19) (xy 262.89 123.19)
+			(xy 243.84 110.49) (xy 265.43 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2816,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 142.24) (xy 35.56 142.24)
+			(xy 238.76 137.16) (xy 257.81 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2826,7 +2763,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 130.81) (xy 48.26 130.81)
+			(xy 46.99 118.11) (xy 50.8 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2836,27 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 57.15) (xy 83.82 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1941a20-a102-4e1a-8bf6-acdecf872d87")
-	)
-	(wire
-		(pts
-			(xy 27.94 26.67) (xy 262.89 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b2d1f1-dce0-4970-bdb5-4259e008aa65")
-	)
-	(wire
-		(pts
-			(xy 31.75 57.15) (xy 45.72 57.15)
+			(xy 34.29 44.45) (xy 48.26 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +2783,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 123.19) (xy 135.89 123.19)
+			(xy 111.76 110.49) (xy 138.43 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2876,17 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 92.71) (xy 134.62 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6f2727a-db5e-489b-99a5-2f6a77c5d719")
-	)
-	(wire
-		(pts
-			(xy 43.18 149.86) (xy 46.99 149.86)
+			(xy 250.19 144.78) (xy 246.38 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2896,7 +2803,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 68.58) (xy 41.91 100.33)
+			(xy 44.45 55.88) (xy 44.45 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2906,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 157.48) (xy 214.63 157.48)
+			(xy 105.41 152.4) (xy 78.74 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2916,7 +2823,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 52.07) (xy 55.88 68.58)
+			(xy 58.42 39.37) (xy 58.42 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2926,7 +2833,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 130.81) (xy 101.6 130.81)
+			(xy 92.71 118.11) (xy 104.14 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2936,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 138.43) (xy 262.89 138.43)
+			(xy 243.84 125.73) (xy 265.43 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2946,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 157.48) (xy 161.29 157.48)
+			(xy 158.75 152.4) (xy 132.08 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2956,7 +2863,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 138.43) (xy 109.22 138.43)
+			(xy 85.09 125.73) (xy 111.76 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2966,17 +2873,27 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 99.06) (xy 170.18 99.06)
+			(xy 273.05 129.54) (xy 22.86 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1b252a8-554e-4de8-b36b-9b0c5b97ac4a")
+		(uuid "c2eeaea1-4a71-443d-91ed-718fe3fd1639")
 	)
 	(wire
 		(pts
-			(xy 107.95 157.48) (xy 134.62 157.48)
+			(xy 234.95 82.55) (xy 248.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d1c338-961b-44c4-8fca-182908072982")
+	)
+	(wire
+		(pts
+			(xy 185.42 152.4) (xy 158.75 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2986,27 +2903,17 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 138.43) (xy 267.97 138.43)
+			(xy 17.78 125.73) (xy 17.78 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c488d19d-da67-49ee-b1b0-27d3bedc612f")
+		(uuid "c826e59e-61aa-4164-9d3c-b145e8e3ce3f")
 	)
 	(wire
 		(pts
-			(xy 36.83 138.43) (xy 55.88 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c48e9124-de81-448a-840a-9d0f8417be9d")
-	)
-	(wire
-		(pts
-			(xy 170.18 130.81) (xy 181.61 130.81)
+			(xy 172.72 118.11) (xy 184.15 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3016,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 149.86) (xy 180.34 149.86)
+			(xy 124.46 144.78) (xy 113.03 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +2933,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 123.19) (xy 109.22 123.19)
+			(xy 234.95 76.2) (xy 234.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11b61e6-b1d0-4d49-869c-8c9892004547")
+	)
+	(wire
+		(pts
+			(xy 85.09 110.49) (xy 111.76 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3036,7 +2953,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 68.58) (xy 69.85 92.71)
+			(xy 72.39 55.88) (xy 72.39 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3046,7 +2963,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 123.19) (xy 215.9 123.19)
+			(xy 191.77 110.49) (xy 218.44 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3056,17 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 87.63) (xy 190.5 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc379616-4a6b-454e-b391-5ae8b896e54e")
-	)
-	(wire
-		(pts
-			(xy 69.85 36.83) (xy 69.85 52.07)
+			(xy 72.39 24.13) (xy 72.39 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3076,17 +2983,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 81.28) (xy 134.62 81.28)
+			(xy 273.05 118.11) (xy 273.05 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfa70690-1d91-4e58-bbdb-b05fd70efc4c")
+		(uuid "e111ea5e-8e2e-4dd7-8f93-97969a8cb560")
 	)
 	(wire
 		(pts
-			(xy 187.96 142.24) (xy 161.29 142.24)
+			(xy 105.41 137.16) (xy 132.08 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3096,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 36.83) (xy 55.88 52.07)
+			(xy 58.42 24.13) (xy 58.42 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +3013,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 138.43) (xy 135.89 138.43)
+			(xy 111.76 125.73) (xy 138.43 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3116,7 +3023,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 123.19) (xy 162.56 123.19)
+			(xy 138.43 110.49) (xy 165.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3126,7 +3033,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 130.81) (xy 128.27 130.81)
+			(xy 119.38 118.11) (xy 130.81 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +3043,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 36.83) (xy 41.91 52.07)
+			(xy 44.45 24.13) (xy 44.45 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3146,17 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 104.14) (xy 29.21 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f00708bd-ef35-49f3-9491-863e884987c1")
-	)
-	(wire
-		(pts
-			(xy 45.72 41.91) (xy 59.69 41.91)
+			(xy 48.26 29.21) (xy 62.23 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +3063,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 149.86) (xy 73.66 149.86)
+			(xy 231.14 144.78) (xy 219.71 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 123.19) (xy 82.55 123.19)
+			(xy 58.42 110.49) (xy 85.09 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 41.91) (xy 92.71 41.91)
+			(xy 62.23 29.21) (xy 95.25 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3194,9 +3091,75 @@
 		)
 		(uuid "ff03dec3-915c-47a2-bf3c-8c572767e600")
 	)
+	(global_label "OLED_SCL"
+		(shape input)
+		(at 248.92 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13c5d498-6a01-4ec6-95c1-25a73c4581db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.682 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC11_B"
+		(shape input)
+		(at 219.71 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19d20d16-d57c-43aa-9303-b02168dd937e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.6492 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC11_A"
+		(shape input)
+		(at 137.16 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22090a7b-f5e4-4653-93ad-1ec067dc8665")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.2806 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW0"
 		(shape input)
-		(at 92.71 41.91 0)
+		(at 95.25 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3206,7 +3169,7 @@
 		)
 		(uuid "2da7ce5f-20f6-4596-ad63-32f74ae4f39d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.9566 41.91 0)
+			(at 103.4966 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,9 +3179,53 @@
 			)
 		)
 	)
-	(global_label "ROW1"
+	(global_label "LED_CNTRL"
 		(shape input)
-		(at 83.82 57.15 0)
+		(at 31.75 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "303af706-3b17-43ea-b8f5-e8c787656bd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.4839 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OLED_SDA"
+		(shape input)
+		(at 137.16 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "310ddaeb-65eb-4be2-a506-94d5fd38ccaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.8615 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 172.72 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3226,9 +3233,9 @@
 			)
 			(justify left)
 		)
-		(uuid "537b9f83-68bc-4e18-adb6-32da913cf434")
+		(uuid "323d41ba-053b-42a4-8af5-7e6eb66031ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.0666 57.15 0)
+			(at 180.5433 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,53 +3245,31 @@
 			)
 		)
 	)
-	(global_label "COL1"
-		(shape input)
-		(at 55.88 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5bbddc2f-ab80-4700-9406-fc7550c196e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.0567 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL0"
-		(shape input)
-		(at 69.85 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c319de71-48e5-40b7-91fc-82aa8ef08a04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.0267 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL2"
 		(shape input)
-		(at 41.91 100.33 180)
+		(at 172.72 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37af221b-b85a-4e37-a6ed-51f947a3c168")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.5433 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC11_A"
+		(shape input)
+		(at 219.71 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3292,9 +3277,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d84d3021-9943-49dd-b097-cbd376de0714")
+		(uuid "3f6a491e-72f6-4897-b4f2-be7d6599dcc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.0867 100.33 0)
+			(at 209.8306 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3291,271 @@
 	)
 	(global_label "ROW2"
 		(shape input)
-		(at 74.93 73.66 0)
+		(at 137.16 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "456e6e15-3eea-44f6-9a27-74d6c551168f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.9134 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_CNTRL"
+		(shape input)
+		(at 172.72 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49ecc24f-0df7-469f-b4ba-648e1fd5f71e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.9861 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OLED_SCL"
+		(shape input)
+		(at 137.16 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51f1be21-822e-4ccd-9ebd-5a55b6a288de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.922 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 86.36 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "537b9f83-68bc-4e18-adb6-32da913cf434")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.6066 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 58.42 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bbddc2f-ab80-4700-9406-fc7550c196e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.5967 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OLED_SDA"
+		(shape input)
+		(at 248.92 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60a35a51-cccf-4010-bf84-5279dfd96df1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.6215 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC11_B"
+		(shape input)
+		(at 137.16 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8038d523-b7c3-44e1-90a1-6e6fff79f551")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.0992 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 172.72 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a546c8df-f7bc-4d9c-957a-06e3dd366ca4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.5433 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 72.39 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c319de71-48e5-40b7-91fc-82aa8ef08a04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.5667 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 137.16 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ced4975a-ab78-42ce-bf31-dcfa8b40538f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.9134 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 44.45 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d84d3021-9943-49dd-b097-cbd376de0714")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.6267 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 137.16 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e48520d4-a0cb-47c8-8797-e431b0a77e16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.9134 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 77.47 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3316,7 +3565,7 @@
 		)
 		(uuid "fd4269d8-b74b-41ef-93e8-91ad3687ac88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.1766 73.66 0)
+			(at 85.7166 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,17 +3576,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 256.54 157.48 0)
+		(lib_id "power:VCC")
+		(at 275.59 137.16 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "14f286df-e779-4a2b-8553-cbe9e176558d")
-		(property "Reference" "#PWR01"
-			(at 256.54 163.83 0)
+		(uuid "002b99eb-d460-4070-98b1-f1a589000b3b")
+		(property "Reference" "#PWR08"
+			(at 275.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,8 +3595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 256.54 162.56 0)
+		(property "Value" "VCC"
+			(at 275.59 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 157.48 0)
+			(at 275.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3613,206 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 157.48 0)
+			(at 275.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 275.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31174116-adca-49d8-8ed9-4f3bcf1d9036")
+		)
+		(instances
+			(project "macropad"
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCCQ")
+		(at 196.85 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01a377bc-d652-4f9e-a763-ebe53dcb7cf9")
+		(property "Reference" "#PWR010"
+			(at 196.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCQ"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53e1ad3f-ecc8-4632-aaad-04bb8eff3977")
+		)
+		(instances
+			(project "macropad"
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCCQ")
+		(at 234.95 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e0923b9-532c-46aa-b21c-f54622c21127")
+		(property "Reference" "#PWR03"
+			(at 234.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCCQ"
+			(at 234.95 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCCQ\""
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46022934-a9af-43fb-842a-0e944364a579")
+		)
+		(instances
+			(project ""
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14f286df-e779-4a2b-8553-cbe9e176558d")
+		(property "Reference" "#PWR09"
+			(at 36.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 157.48 0)
+			(at 36.83 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3835,7 @@
 		(instances
 			(project ""
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "#PWR01")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3394,7 +3843,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 36.83 68.58 0)
+		(at 39.37 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3402,8 +3851,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1547b2af-62be-4971-b069-ca96a5ef49b8")
-		(property "Reference" "SW12"
-			(at 36.83 60.96 0)
+		(property "Reference" "SW7"
+			(at 39.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,15 +3860,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 36.83 63.5 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 36.83 63.5 0)
+		(property "Footprint" "Library:SW_Cherry_MX_1.00u_PCB"
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +3877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 63.5 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3886,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 36.83 68.58 0)
+			(at 39.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3903,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "SW12")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -3462,7 +3911,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder")
-		(at 224.79 101.6 0)
+		(at 227.33 88.9 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3470,8 +3919,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bfe7e7a-d777-47c3-946d-9f65a4ad5592")
-		(property "Reference" "SW17"
-			(at 224.79 91.44 0)
+		(property "Reference" "SW10"
+			(at 227.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3928,7 @@
 			)
 		)
 		(property "Value" "RotaryEncoder"
-			(at 224.79 93.98 0)
+			(at 227.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3936,7 @@
 			)
 		)
 		(property "Footprint" "Downloads:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
-			(at 220.98 105.664 0)
+			(at 223.52 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 108.204 0)
+			(at 227.33 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3954,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
-			(at 224.79 101.6 0)
+			(at 227.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3974,7 @@
 		(instances
 			(project ""
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "SW17")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -3533,7 +3982,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 189.23 130.81 0)
+		(at 191.77 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3541,24 +3990,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a44b59e-69a2-4252-9b97-863a23149740")
-		(property "Reference" "D20"
-			(at 200.66 124.3898 0)
+		(property "Reference" "D16"
+			(at 193.9133 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 200.66 126.9298 0)
+			(at 193.9133 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 190.5 138.43 0)
+			(at 193.04 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +4019,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 191.77 140.335 0)
+			(at 194.31 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +4029,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 189.23 130.81 0)
+			(at 191.77 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +4052,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D20")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -3609,7 +4060,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 162.56 130.81 0)
+		(at 165.1 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3617,24 +4068,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e274e89-530f-48c7-83e8-4ad33973fe7a")
-		(property "Reference" "D18"
-			(at 173.99 124.3898 0)
+		(property "Reference" "D15"
+			(at 167.2433 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 173.99 126.9298 0)
+			(at 167.2433 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 163.83 138.43 0)
+			(at 166.37 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +4097,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 165.1 140.335 0)
+			(at 167.64 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +4107,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 162.56 130.81 0)
+			(at 165.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +4130,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D18")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -3685,7 +4138,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 82.55 130.81 0)
+		(at 85.09 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3693,24 +4146,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "328eea26-5c25-4331-9c1a-011d899dcefd")
-		(property "Reference" "D2"
-			(at 93.98 124.3898 0)
+		(property "Reference" "D12"
+			(at 87.2333 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 93.98 126.9298 0)
+			(at 87.2333 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 83.82 138.43 0)
+			(at 86.36 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +4175,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 85.09 140.335 0)
+			(at 87.63 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +4185,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 82.55 130.81 0)
+			(at 85.09 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +4208,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D2")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3761,7 +4216,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 50.8 36.83 0)
+		(at 53.34 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3769,8 +4224,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33b9b4d6-277a-4eb6-90d2-26b1dfd11be5")
-		(property "Reference" "SW6"
-			(at 50.8 29.21 0)
+		(property "Reference" "SW2"
+			(at 53.34 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,15 +4233,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 50.8 31.75 0)
+			(at 53.34 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 50.8 31.75 0)
+		(property "Footprint" "Library:SW_Cherry_MX_1.00u_PCB"
+			(at 53.34 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +4250,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 31.75 0)
+			(at 53.34 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +4259,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 50.8 36.83 0)
+			(at 53.34 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +4276,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "SW6")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -3829,15 +4284,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 45.72 71.12 90)
+		(at 48.26 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "355c40ab-424a-456e-80ac-87adfe1f1937")
-		(property "Reference" "D14"
-			(at 47.244 71.374 90)
+		(property "Reference" "D8"
+			(at 49.784 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +4301,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 47.244 72.39 90)
+			(at 49.784 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +4311,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
-			(at 45.72 71.12 90)
+			(at 48.26 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +4320,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 71.12 90)
+			(at 48.26 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +4329,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 45.72 71.12 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +4338,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 45.72 71.12 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +4347,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 71.12 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +4364,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D14")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3917,8 +4372,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 241.3 149.86 0)
-		(mirror y)
+		(at 52.07 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3926,24 +4380,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e1139f5-73fb-4a3d-b26a-9171ca1548e0")
-		(property "Reference" "D7"
-			(at 229.87 143.4398 0)
+		(property "Reference" "D21"
+			(at 48.9519 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 229.87 145.9798 0)
+			(at 48.9519 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 240.03 157.48 0)
+			(at 53.34 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +4409,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 238.76 159.385 0)
+			(at 54.61 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +4419,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 241.3 149.86 0)
+			(at 52.07 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +4442,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D7")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -3994,7 +4450,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 36.83 36.83 0)
+		(at 39.37 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4002,8 +4458,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "415294b3-6f66-4d45-83a2-756b296c30b1")
-		(property "Reference" "SW4"
-			(at 36.83 29.21 0)
+		(property "Reference" "SW1"
+			(at 39.37 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,15 +4467,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 36.83 31.75 0)
+			(at 39.37 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 36.83 31.75 0)
+		(property "Footprint" "Library:SW_Cherry_MX_1.00u_PCB"
+			(at 39.37 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4484,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 31.75 0)
+			(at 39.37 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4493,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 36.83 36.83 0)
+			(at 39.37 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4510,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "SW4")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -4062,7 +4518,7 @@
 	)
 	(symbol
 		(lib_id "OLED:OLED")
-		(at 238.76 93.98 90)
+		(at 241.3 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4071,7 +4527,7 @@
 		(fields_autoplaced yes)
 		(uuid "465fcb62-83b5-47d2-9b0f-a1bcb26b7d07")
 		(property "Reference" "OLED1"
-			(at 256.54 92.7099 90)
+			(at 259.08 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4536,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 256.54 94.615 90)
+			(at 259.08 81.915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4545,7 @@
 			)
 		)
 		(property "Footprint" "Downloads:SSD1306-0.91-OLED-4pin-128x32"
-			(at 238.76 93.98 0)
+			(at 241.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 93.98 0)
+			(at 241.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 93.98 0)
+			(at 241.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,8 +4594,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 134.62 149.86 0)
-		(mirror y)
+		(at 158.75 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4147,24 +4602,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46ea8e83-0e10-436c-bf12-6023fa521b17")
-		(property "Reference" "D19"
-			(at 123.19 143.4398 0)
+		(property "Reference" "D25"
+			(at 155.6319 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 123.19 145.9798 0)
+			(at 155.6319 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 133.35 157.48 0)
+			(at 160.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4631,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 132.08 159.385 0)
+			(at 161.29 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4641,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 134.62 149.86 0)
+			(at 158.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4664,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D19")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -4215,8 +4672,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 107.95 149.86 0)
-		(mirror y)
+		(at 185.42 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4224,24 +4680,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "486e7914-475c-4eb5-b1e6-2587bc236919")
-		(property "Reference" "D21"
-			(at 96.52 143.4398 0)
+		(property "Reference" "D26"
+			(at 182.3019 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 96.52 145.9798 0)
+			(at 182.3019 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 106.68 157.48 0)
+			(at 186.69 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4709,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 105.41 159.385 0)
+			(at 187.96 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4719,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 107.95 149.86 0)
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4742,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D21")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -4292,15 +4750,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 45.72 54.61 90)
+		(at 48.26 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "48d3406f-d5b5-47be-952d-0981fe6a6c43")
-		(property "Reference" "D13"
-			(at 47.244 54.864 90)
+		(property "Reference" "D5"
+			(at 49.784 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4767,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 47.244 55.88 90)
+			(at 49.784 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4777,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
-			(at 45.72 54.61 90)
+			(at 48.26 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 54.61 90)
+			(at 48.26 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4795,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 45.72 54.61 0)
+			(at 48.26 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +4804,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 45.72 54.61 0)
+			(at 48.26 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4813,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 54.61 0)
+			(at 48.26 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4830,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D13")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4380,7 +4838,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 36.83 52.07 0)
+		(at 39.37 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4388,8 +4846,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "498da210-c905-456e-97d3-6bb0c4a4e1c8")
-		(property "Reference" "SW11"
-			(at 36.83 44.45 0)
+		(property "Reference" "SW4"
+			(at 39.37 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,15 +4855,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 36.83 46.99 0)
+			(at 39.37 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 36.83 46.99 0)
+		(property "Footprint" "Library:SW_Cherry_MX_1.00u_PCB"
+			(at 39.37 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4872,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 46.99 0)
+			(at 39.37 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4881,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 36.83 52.07 0)
+			(at 39.37 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4898,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "SW11")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4448,7 +4906,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 215.9 130.81 0)
+		(at 218.44 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4456,24 +4914,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fd27346-3ae1-41ae-b987-992a5b9f6504")
-		(property "Reference" "D22"
-			(at 227.33 124.3898 0)
+		(property "Reference" "D17"
+			(at 220.5833 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 227.33 126.9298 0)
+			(at 220.5833 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 217.17 138.43 0)
+			(at 219.71 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4943,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 218.44 140.335 0)
+			(at 220.98 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4953,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 215.9 130.81 0)
+			(at 218.44 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4976,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D22")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -4524,8 +4984,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 187.96 149.86 0)
-		(mirror y)
+		(at 105.41 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4533,24 +4992,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56b84fc8-aafb-4e34-8bf7-a77f6bda7ae2")
-		(property "Reference" "D10"
-			(at 176.53 143.4398 0)
+		(property "Reference" "D23"
+			(at 102.2919 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 176.53 145.9798 0)
+			(at 102.2919 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 186.69 157.48 0)
+			(at 106.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +5021,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 185.42 159.385 0)
+			(at 107.95 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +5031,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 187.96 149.86 0)
+			(at 105.41 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +5054,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D10")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -4601,7 +5062,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 101.6 270)
+		(at 219.71 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4609,8 +5070,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5caf65c8-15c2-4c6c-8c6f-e6ddd176a4a7")
-		(property "Reference" "#PWR06"
-			(at 191.77 101.6 0)
+		(property "Reference" "#PWR04"
+			(at 213.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +5080,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 101.5999 90)
+			(at 215.9 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +5089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 101.6 0)
+			(at 219.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +5098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 101.6 0)
+			(at 219.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +5107,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 101.6 0)
+			(at 219.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +5121,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4668,15 +5129,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 59.69 71.12 90)
+		(at 62.23 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6e535a7d-302f-4e33-8713-f6977dafb19d")
-		(property "Reference" "D16"
-			(at 61.214 71.374 90)
+		(property "Reference" "D9"
+			(at 63.754 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +5146,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 61.214 72.39 90)
+			(at 63.754 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +5156,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
-			(at 59.69 71.12 90)
+			(at 62.23 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +5165,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 71.12 90)
+			(at 62.23 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +5174,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 59.69 71.12 0)
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,7 +5183,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 59.69 71.12 0)
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +5192,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 71.12 0)
+			(at 62.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +5209,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D16")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4756,7 +5217,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 36.83 130.81 0)
+		(at 39.37 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4764,8 +5225,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7285028e-7c4b-4093-9045-7174ab08a8c4")
-		(property "Reference" "D29"
-			(at 48.26 124.3898 0)
+		(property "Reference" "D10"
+			(at 27.94 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +5234,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 48.26 126.9298 0)
+			(at 27.94 114.2298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +5242,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 38.1 138.43 0)
+			(at 40.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +5252,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 39.37 140.335 0)
+			(at 41.91 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +5262,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 36.83 130.81 0)
+			(at 39.37 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +5285,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D29")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4832,8 +5293,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 35.56 149.86 0)
-		(mirror y)
+		(at 257.81 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4841,8 +5301,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72f45d41-8977-44e2-b217-30e812254907")
-		(property "Reference" "D28"
-			(at 24.13 143.4398 0)
+		(property "Reference" "D29"
+			(at 246.38 138.3598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +5310,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 24.13 145.9798 0)
+			(at 246.38 140.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +5318,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 34.29 157.48 0)
+			(at 259.08 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +5328,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 33.02 159.385 0)
+			(at 260.35 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +5338,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 35.56 149.86 0)
+			(at 257.81 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +5361,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D28")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -4909,7 +5369,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 107.95 0)
+		(at 248.92 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4918,7 +5378,7 @@
 		(fields_autoplaced yes)
 		(uuid "75e3f68e-21fa-43fc-b79b-a4953fc58279")
 		(property "Reference" "#PWR05"
-			(at 246.38 114.3 0)
+			(at 248.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +5387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 113.03 0)
+			(at 248.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +5395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 107.95 0)
+			(at 248.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,7 +5404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 107.95 0)
+			(at 248.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +5413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 107.95 0)
+			(at 248.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,15 +5435,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 45.72 39.37 90)
+		(at 48.26 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7e1507e0-9089-46c0-a9d7-462b90aeea33")
-		(property "Reference" "D6"
-			(at 47.244 39.624 90)
+		(property "Reference" "D2"
+			(at 49.784 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +5452,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 47.244 40.64 90)
+			(at 49.784 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5462,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
-			(at 45.72 39.37 90)
+			(at 48.26 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 39.37 90)
+			(at 48.26 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5480,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 45.72 39.37 0)
+			(at 48.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5489,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 45.72 39.37 0)
+			(at 48.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5498,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 39.37 0)
+			(at 48.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5515,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5523,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 64.77 52.07 0)
+		(at 67.31 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5071,8 +5531,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e94714d-057b-457b-ae39-b3a57eafe5bf")
-		(property "Reference" "SW15"
-			(at 64.77 44.45 0)
+		(property "Reference" "SW6"
+			(at 67.31 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,15 +5540,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 64.77 46.99 0)
+			(at 67.31 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 64.77 46.99 0)
+		(property "Footprint" "Library:SW_Cherry_MX_1.00u_PCB"
+			(at 67.31 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5557,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 46.99 0)
+			(at 67.31 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5566,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 64.77 52.07 0)
+			(at 67.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +5583,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "SW15")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -5131,8 +5591,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 214.63 149.86 0)
-		(mirror y)
+		(at 78.74 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5140,24 +5599,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c832f7-c76c-4cb7-a802-66cc0679845d")
-		(property "Reference" "D9"
-			(at 203.2 143.4398 0)
+		(property "Reference" "D22"
+			(at 75.6219 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 203.2 145.9798 0)
+			(at 75.6219 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 213.36 157.48 0)
+			(at 80.01 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5628,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 212.09 159.385 0)
+			(at 81.28 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +5638,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 214.63 149.86 0)
+			(at 78.74 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +5661,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D9")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -5208,16 +5669,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 85.09 0)
+		(at 187.96 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8971294f-6ea0-4a13-9440-179913672776")
-		(property "Reference" "#PWR04"
-			(at 185.42 91.44 0)
+		(property "Reference" "#PWR02"
+			(at 187.96 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 90.17 0)
+			(at 187.96 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 85.09 0)
+			(at 187.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 85.09 0)
+			(at 187.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5252,7 +5712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 85.09 0)
+			(at 187.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5726,7 @@
 		(instances
 			(project ""
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5274,7 +5734,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 50.8 68.58 0)
+		(at 53.34 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5282,8 +5742,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b3f6de2-be17-4ecd-adcf-e5ad2b78ddf2")
-		(property "Reference" "SW14"
-			(at 50.8 60.96 0)
+		(property "Reference" "SW8"
+			(at 53.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,15 +5751,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 50.8 63.5 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 50.8 63.5 0)
+		(property "Footprint" "Library:SW_Cherry_MX_1.00u_PCB"
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 63.5 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5777,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 50.8 68.58 0)
+			(at 53.34 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5794,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "SW14")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -5342,7 +5802,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 262.89 130.81 0)
+		(at 265.43 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5350,8 +5810,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b7996e2-5c25-4d10-be48-18269fedae12")
-		(property "Reference" "D26"
-			(at 274.32 124.3898 0)
+		(property "Reference" "D19"
+			(at 276.86 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5819,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 274.32 126.9298 0)
+			(at 276.86 114.2298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5827,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 264.16 138.43 0)
+			(at 266.7 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +5837,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 265.43 140.335 0)
+			(at 267.97 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5847,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 262.89 130.81 0)
+			(at 265.43 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5870,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D26")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -5418,7 +5878,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 64.77 36.83 0)
+		(at 67.31 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5426,8 +5886,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f33250f-6dc2-4c81-86db-07029dd39253")
-		(property "Reference" "SW8"
-			(at 64.77 29.21 0)
+		(property "Reference" "SW3"
+			(at 67.31 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,15 +5895,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 64.77 31.75 0)
+			(at 67.31 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 64.77 31.75 0)
+		(property "Footprint" "Library:SW_Cherry_MX_1.00u_PCB"
+			(at 67.31 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +5912,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 31.75 0)
+			(at 67.31 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +5921,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 64.77 36.83 0)
+			(at 67.31 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5938,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "SW8")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5486,7 +5946,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 50.8 52.07 0)
+		(at 53.34 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5494,8 +5954,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91864af7-a81b-423a-91e9-c2a2082e16d9")
-		(property "Reference" "SW13"
-			(at 50.8 44.45 0)
+		(property "Reference" "SW5"
+			(at 53.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,15 +5963,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 50.8 46.99 0)
+			(at 53.34 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 50.8 46.99 0)
+		(property "Footprint" "Library:SW_Cherry_MX_1.00u_PCB"
+			(at 53.34 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 46.99 0)
+			(at 53.34 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5989,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 50.8 52.07 0)
+			(at 53.34 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +6006,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "SW13")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -5554,7 +6014,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 170.18 81.28 0)
+		(at 172.72 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5562,8 +6022,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93422fe6-5bc1-4e47-aee6-6554061faa3e")
-		(property "Reference" "#PWR03"
-			(at 170.18 85.09 0)
+		(property "Reference" "#PWR01"
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +6032,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 170.18 76.2 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,7 +6040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 81.28 0)
+			(at 172.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +6049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 81.28 0)
+			(at 172.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,7 +6058,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 170.18 81.28 0)
+			(at 172.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +6072,7 @@
 		(instances
 			(project ""
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5620,8 +6080,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 161.29 149.86 0)
-		(mirror y)
+		(at 132.08 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5629,24 +6088,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f841f59-a205-4651-8425-e3f560941751")
-		(property "Reference" "D17"
-			(at 149.86 143.4398 0)
+		(property "Reference" "D24"
+			(at 128.9619 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 149.86 145.9798 0)
+			(at 128.9619 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 160.02 157.48 0)
+			(at 133.35 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,7 +6117,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 158.75 159.385 0)
+			(at 134.62 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +6127,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 161.29 149.86 0)
+			(at 132.08 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +6150,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D17")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -5697,8 +6158,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 54.61 149.86 0)
-		(mirror y)
+		(at 238.76 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5706,24 +6166,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5867e8e-446b-492b-bd26-d32673015157")
-		(property "Reference" "D25"
-			(at 43.18 143.4398 0)
+		(property "Reference" "D28"
+			(at 235.6419 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 43.18 145.9798 0)
+			(at 235.6419 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 53.34 157.48 0)
+			(at 240.03 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +6195,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 52.07 159.385 0)
+			(at 241.3 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +6205,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 54.61 149.86 0)
+			(at 238.76 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +6228,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D25")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -5774,15 +6236,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 31.75 54.61 90)
+		(at 34.29 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a5e70cda-0021-4c11-9ed2-284a06b641cd")
-		(property "Reference" "D11"
-			(at 33.274 54.864 90)
+		(property "Reference" "D4"
+			(at 35.814 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,7 +6253,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 33.274 55.88 90)
+			(at 35.814 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +6263,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
-			(at 31.75 54.61 90)
+			(at 34.29 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +6272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 54.61 90)
+			(at 34.29 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +6281,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 31.75 54.61 0)
+			(at 34.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,7 +6290,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 31.75 54.61 0)
+			(at 34.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +6299,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 54.61 0)
+			(at 34.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +6316,73 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D11")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 41.91 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5791027-e05b-4905-8347-51081c1cc75b")
+		(property "Reference" "#PWR06"
+			(at 41.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 41.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 41.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa52d4ce-05ea-4d35-a4d8-57ac0e5ab216")
+		)
+		(instances
+			(project "macropad"
+				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5862,15 +6390,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 31.75 39.37 90)
+		(at 34.29 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c7617bed-d2ab-4d70-af2e-4f9acc785c63")
-		(property "Reference" "D4"
-			(at 33.274 39.624 90)
+		(property "Reference" "D1"
+			(at 35.814 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +6407,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 33.274 40.64 90)
+			(at 35.814 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +6417,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
-			(at 31.75 39.37 90)
+			(at 34.29 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +6426,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 39.37 90)
+			(at 34.29 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +6435,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 31.75 39.37 0)
+			(at 34.29 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +6444,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 31.75 39.37 0)
+			(at 34.29 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +6453,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 39.37 0)
+			(at 34.29 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +6470,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5950,7 +6478,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 64.77 68.58 0)
+		(at 67.31 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5958,8 +6486,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9e0b227-ea3a-454c-b01f-f9eb74420ad1")
-		(property "Reference" "SW16"
-			(at 64.77 60.96 0)
+		(property "Reference" "SW9"
+			(at 67.31 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,15 +6495,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 64.77 63.5 0)
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 64.77 63.5 0)
+		(property "Footprint" "Library:SW_Cherry_MX_1.00u_PCB"
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +6512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 63.5 0)
+			(at 67.31 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +6521,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 64.77 68.58 0)
+			(at 67.31 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6538,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "SW16")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -6018,15 +6546,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 59.69 54.61 90)
+		(at 62.23 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ca94feac-97da-4058-b627-4d380c28f85f")
-		(property "Reference" "D15"
-			(at 61.214 54.864 90)
+		(property "Reference" "D6"
+			(at 63.754 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6563,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 61.214 55.88 90)
+			(at 63.754 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6573,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
-			(at 59.69 54.61 90)
+			(at 62.23 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6582,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 54.61 90)
+			(at 62.23 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6591,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 59.69 54.61 0)
+			(at 62.23 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6600,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 59.69 54.61 0)
+			(at 62.23 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6609,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 54.61 0)
+			(at 62.23 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6626,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D15")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6106,7 +6634,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 138.43 0)
+		(at 17.78 130.81 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6115,7 +6644,7 @@
 		(fields_autoplaced yes)
 		(uuid "d83df8f3-d6d1-4a97-abc9-e47234d33fd6")
 		(property "Reference" "#PWR07"
-			(at 267.97 144.78 0)
+			(at 17.78 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 143.51 0)
+			(at 17.78 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 138.43 0)
+			(at 17.78 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +6670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 138.43 0)
+			(at 17.78 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 138.43 0)
+			(at 17.78 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,8 +6701,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 262.89 149.86 0)
-		(mirror y)
+		(at 30.48 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6181,24 +6709,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0dea09d-c10a-4ee3-af7c-a56c9e6ad2ea")
-		(property "Reference" "D27"
-			(at 251.46 143.4398 0)
+		(property "Reference" "D20"
+			(at 27.3619 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 251.46 145.9798 0)
+			(at 27.3619 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 261.62 157.48 0)
+			(at 31.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6738,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 260.35 159.385 0)
+			(at 33.02 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6748,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 262.89 149.86 0)
+			(at 30.48 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6771,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D27")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -6249,7 +6779,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 241.3 130.81 0)
+		(at 243.84 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6257,24 +6787,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e154d050-c971-4953-9516-c31da6264118")
-		(property "Reference" "D24"
-			(at 252.73 124.3898 0)
+		(property "Reference" "D18"
+			(at 245.9833 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 252.73 126.9298 0)
+			(at 245.9833 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 242.57 138.43 0)
+			(at 245.11 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6816,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 243.84 140.335 0)
+			(at 246.38 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +6826,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 241.3 130.81 0)
+			(at 243.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6849,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D24")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -6325,15 +6857,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 59.69 39.37 90)
+		(at 62.23 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e67148a8-9459-446e-acdb-e53bd2cc1d03")
-		(property "Reference" "D8"
-			(at 61.214 39.624 90)
+		(property "Reference" "D3"
+			(at 63.754 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,7 +6874,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 61.214 40.64 90)
+			(at 63.754 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6884,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
-			(at 59.69 39.37 90)
+			(at 62.23 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 39.37 90)
+			(at 62.23 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6902,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 59.69 39.37 0)
+			(at 62.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6911,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 59.69 39.37 0)
+			(at 62.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6920,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 59.69 39.37 0)
+			(at 62.23 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +6937,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D8")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6413,7 +6945,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 109.22 130.81 0)
+		(at 111.76 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6421,24 +6953,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8ed3e26-6c65-4e1d-9445-1ffcb5a1988c")
-		(property "Reference" "D3"
-			(at 120.65 124.3898 0)
+		(property "Reference" "D13"
+			(at 113.9033 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 120.65 126.9298 0)
+			(at 113.9033 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 110.49 138.43 0)
+			(at 113.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6982,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 111.76 140.335 0)
+			(at 114.3 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6992,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 109.22 130.81 0)
+			(at 111.76 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +7015,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D3")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -6489,7 +7023,7 @@
 	)
 	(symbol
 		(lib_id "OPL:XIAO-RP2040-DIP")
-		(at 138.43 76.2 0)
+		(at 140.97 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6497,7 +7031,7 @@
 		(dnp no)
 		(uuid "f12a281e-17d7-4163-8aa0-7b5ca249fa42")
 		(property "Reference" "U1"
-			(at 152.4 73.66 0)
+			(at 154.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +7039,7 @@
 			)
 		)
 		(property "Value" "XIAO-RP2040-DIP"
-			(at 152.4 76.2 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +7047,7 @@
 			)
 		)
 		(property "Footprint" "OPL:XIAO-RP2040-DIP"
-			(at 152.908 108.458 0)
+			(at 155.448 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +7056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 76.2 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +7065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 76.2 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,15 +7126,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 31.75 71.12 90)
+		(at 34.29 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f22f1432-9a25-41a6-9d23-498d2699429b")
-		(property "Reference" "D12"
-			(at 33.274 71.374 90)
+		(property "Reference" "D7"
+			(at 35.814 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,7 +7143,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 33.274 72.39 90)
+			(at 35.814 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +7153,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
-			(at 31.75 71.12 90)
+			(at 34.29 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,7 +7162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 71.12 90)
+			(at 34.29 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +7171,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 31.75 71.12 0)
+			(at 34.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +7180,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 31.75 71.12 0)
+			(at 34.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6655,7 +7189,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 31.75 71.12 0)
+			(at 34.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +7206,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D12")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -6680,7 +7214,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 55.88 130.81 0)
+		(at 58.42 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6688,24 +7222,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f54a1065-381c-4b14-a3cd-d6d0318b7124")
-		(property "Reference" "D1"
-			(at 67.31 124.3898 0)
+		(property "Reference" "D11"
+			(at 60.5633 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 67.31 126.9298 0)
+			(at 60.5633 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 57.15 138.43 0)
+			(at 59.69 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +7251,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 58.42 140.335 0)
+			(at 60.96 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +7261,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 55.88 130.81 0)
+			(at 58.42 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +7284,7 @@
 		(instances
 			(project ""
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D1")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6756,7 +7292,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 135.89 130.81 0)
+		(at 138.43 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6764,24 +7300,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb5e0a23-e121-4acf-b1d0-6c868d0ae15f")
-		(property "Reference" "D5"
-			(at 147.32 124.3898 0)
+		(property "Reference" "D14"
+			(at 140.5733 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 147.32 126.9298 0)
+			(at 140.5733 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 137.16 138.43 0)
+			(at 139.7 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6791,7 +7329,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 138.43 140.335 0)
+			(at 140.97 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +7339,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 135.89 130.81 0)
+			(at 138.43 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +7362,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D5")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -6832,8 +7370,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 81.28 149.86 0)
-		(mirror y)
+		(at 212.09 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6841,24 +7378,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fce60fed-7dff-4595-9ead-c66027c09863")
-		(property "Reference" "D23"
-			(at 69.85 143.4398 0)
+		(property "Reference" "D27"
+			(at 208.9719 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 69.85 145.9798 0)
+			(at 208.9719 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 80.01 157.48 0)
+			(at 213.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +7407,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 78.74 159.385 0)
+			(at 214.63 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +7417,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 81.28 149.86 0)
+			(at 212.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +7440,7 @@
 		(instances
 			(project "macropad"
 				(path "/fab002a0-27c1-4c35-8825-aefabcb4edb3"
-					(reference "D23")
+					(reference "D27")
 					(unit 1)
 				)
 			)

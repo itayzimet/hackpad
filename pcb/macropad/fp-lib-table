@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "OPL")(type "KiCad")(uri "C:/Users/Itayz/OPL_Kicad_Library/Seeed Studio XIAO Series Library")(options "")(descr ""))
   (lib (name "Downloads")(type "KiCad")(uri "C:/Users/Itayz/Downloads")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
 )

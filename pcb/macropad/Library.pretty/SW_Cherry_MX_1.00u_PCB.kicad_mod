@@ -264,25 +264,26 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.step"
+		(hide yes)
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 -3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 	(model "C:/Users/Itayz/Downloads/MX .STEP"
 		(offset
-			(xyz -10 -12.5 6.5)
+			(xyz 5 2.5 8)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -90 -0 -180)
 		)
 	)
 )

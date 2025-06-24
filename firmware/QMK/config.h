@@ -1,0 +1,14 @@
+/* Encoder */
+#define ENCODER_A_PINS { GP29}
+#define ENCODER_B_PINS { GP0}
+
+/* RGB*/
+#define WS2812_DI_PIN GP1
+#define RGBLIGHT_LED_COUNT 16
+
+/* Oled */
+#define OLED_DISPLAY_128X32
+#define I2C_DRIVER I2CD1
+#define I2C1_SDA_PIN GP6
+#define I2C1_SCL_PIN GP7
+#define OLED_DISABLE_TIMEOUT

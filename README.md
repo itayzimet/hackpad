@@ -22,7 +22,7 @@ made in fusion 360 (crashed my computer only 5 times!)
 My pcb was made in kicad with the silkscreen made up of my girlfriends drawings.
 
 Schematic
-<svg src=images/schematic.svg>
+<img src=images/schematic.png>
 
 PCB
 <img src=images/PCB.png>

@@ -22,17 +22,17 @@ made in fusion 360 (crashed my computer only 5 times!)
 My pcb was made in kicad with the silkscreen made up of my girlfriends drawings.
 
 Schematic
-<svg source=images/schematic.svg>
+<svg src=images/schematic.svg>
 
 PCB
-<img source=images/PCB.png>
+<img src=images/PCB.png>
 
 ## Firmware and Software
 The Firmware is plain QMK but the oled screen is rendered on the host and sent pixel by pixel .
 That is because it look nicer and allows support for non-English languages like hebrew.
 
 the screen should look aproximatlly like this:
-<img source=images/oled.png>
+<img src=images/oled.png>
 
 claude helped here a little bit but not too much.
 

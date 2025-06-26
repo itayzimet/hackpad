@@ -4454,7 +4454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 58.42 60.96 90)
 			(effects
 				(font
@@ -4686,7 +4686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 58.42 44.45 90)
 			(effects
 				(font
@@ -5041,7 +5041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 72.39 60.96 90)
 			(effects
 				(font
@@ -5129,7 +5129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 57.15 99.06 90)
 			(effects
 				(font
@@ -5282,7 +5282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 58.42 29.21 90)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 52.07 99.06 90)
 			(effects
 				(font
@@ -6373,7 +6373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 44.45 44.45 90)
 			(effects
 				(font
@@ -6538,7 +6538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 44.45 29.21 90)
 			(effects
 				(font
@@ -6694,7 +6694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 72.39 44.45 90)
 			(effects
 				(font
@@ -6935,7 +6935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 71.12 99.06 90)
 			(effects
 				(font
@@ -7023,7 +7023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 72.39 29.21 90)
 			(effects
 				(font
@@ -7365,7 +7365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_T-1_P5.08mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 44.45 60.96 90)
 			(effects
 				(font

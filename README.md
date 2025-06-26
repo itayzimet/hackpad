@@ -36,6 +36,12 @@ the screen should look aproximatlly like this:
 
 claude helped here a little bit but not too much.
 
+for Software install just make sure you have python 3.11 and run:
+```bash
+pip install numpy maplotlib hidapi pillow winrt-runtime winrt-windows.foudation  winrt-Windows.Media.Control
+```
+then just run the script found in the "host software" folder and enjoy your music
+
 ## BOM:
 This should be everything needed for this hackpad:
 
